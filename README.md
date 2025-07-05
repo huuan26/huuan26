@@ -51,20 +51,10 @@
 
 ---
 
-## 📈 GitHub Stats
-
-<p align="center">
-  <img width="45%" src="https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=default" />
-  <img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=your-username&layout=compact&theme=default" />
-</p>
-
----
-
 ## 📫 Connect With Me
 
-- 📧 Email: *your-email@example.com*
-- 💼 LinkedIn: [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
-- 🌐 Portfolio: *Coming Soon*
+- 📧 Email: *phanbuihuuan261103@gmail.com*
+- 💼 LinkedIn: [https://www.linkedin.com/in/an-phan-6b6365350/](https://www.linkedin.com/in/an-phan-6b6365350/)
 
 ---
 
