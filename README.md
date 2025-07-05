@@ -27,14 +27,14 @@
 > 📊 **Volleyball National League 2023 Analysis**  
 > This project explores player performance across positions in the 2023 VNL men's volleyball tournament using R and visual analytics.
 
-🔗 [Repository Link](https://github.com/your-username/VNL2023)
+🔗 [Repository Link](https://https://github.com/huuan26/TKNC)
 
 **Technologies used:**
 - R & R Markdown (`.Rmd`)
 - Data visualization with `ggplot2`
 - Interactive report generation to HTML
 
-📄 [View Report (HTML)](https://github.com/your-username/VNL2023/blob/main/VNL2023.html)
+📄 [View Report (HTML)](https://https://github.com/huuan26/TKNC/blob/main/VNL2023.html)
 
 ---
 
