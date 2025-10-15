@@ -48,7 +48,7 @@
 - Data Visualization with `matplotlib` & `seaborn`
 - Feature Engineering & Dimensionality Reduction (`PCA`, `t-SNE`)
 
-[View Report (HTML)](https://github.com/your_username/your_repository_name/blob/main/your_report_file.html) 
+[View Report (HTML)](https://github.com/huuan26/EEG/blob/main/EEG_Report.html) 
 
 ---
 
