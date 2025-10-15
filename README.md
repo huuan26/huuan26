@@ -11,10 +11,8 @@
 
 ## 👨‍💻 About Me
 
-- 🎓 AI Engineer with a strong background in mathematics, data science, and software engineering.
+- 🎓 Researcher with a background in mathematics, data science, and software engineering.
 - 📌 Currently working on projects involving:
-  - Natural Language Processing (NLP)
-  - Computer Vision (CV)
   - Statistical analysis and visualization using R and Python
   - Applied machine learning in production environments
 - 🧠 Interested in Generative AI, Foundation Models, and Explainable AI (XAI)
