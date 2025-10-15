@@ -40,7 +40,7 @@
 
 > **Phát hiện Cơn động kinh Tự động từ Tín hiệu EEG Ngắn hạn** > Dự án này sử dụng các kỹ thuật học máy để phân tích tín hiệu điện não đồ (EEG) và xây dựng mô hình tự động phân loại các cơn động kinh, nhằm nâng cao hiệu quả chẩn đoán.
 
-🔗 [Repository Link](https://github.com/your_username/your_repository_name) 
+🔗 [Repository Link](https://github.com/huuan26/EEG) 
 
 **Technologies used:**
 - Python & Jupyter Notebook
