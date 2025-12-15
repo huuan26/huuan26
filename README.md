@@ -18,21 +18,6 @@
 - Interested in Generative AI, Foundation Models, and Explainable AI (XAI)
 - Contributor to open-source projects and research-oriented analytics
 
----
-
-## Featured Project: VNL2023 Volleyball Data Analysis
-
-> **Volleyball National League 2023 Analysis**  
-> This project explores player performance across positions in the 2023 VNL men's volleyball tournament using R and visual analytics.
-
-🔗 [Repository Link](https://github.com/huuan26/TKNC)
-
-**Technologies used:**
-- R & R Markdown (`.Rmd`)
-- Data visualization with `ggplot2`
-- Interactive report generation to HTML
-
-[View Report (HTML)](https://github.com/huuan26/TKNC/blob/main/VNL2023.html)
 
 ---
 
@@ -57,6 +42,21 @@
 
 ---
 
+## Featured Project: VNL2023 Volleyball Data Analysis
+
+> **Volleyball National League 2023 Analysis**  
+> This project explores player performance across positions in the 2023 VNL men's volleyball tournament using R and visual analytics.
+
+🔗 [Repository Link](https://github.com/huuan26/TKNC)
+
+**Technologies used:**
+- R & R Markdown (`.Rmd`)
+- Data visualization with `ggplot2`
+- Interactive report generation to HTML
+
+[View Report (HTML)](https://github.com/huuan26/TKNC/blob/main/VNL2023.html)
+
+---
 
 ## Connect With Me
 
