@@ -38,17 +38,20 @@
 
 ## Featured Project: Phân tích và Nhận diện Cơn động kinh từ EEG
 
-> **Phát hiện Cơn động kinh Tự động từ Tín hiệu EEG Ngắn hạn** > Dự án này sử dụng các kỹ thuật học máy để phân tích tín hiệu điện não đồ (EEG) và xây dựng mô hình tự động phân loại các cơn động kinh, nhằm nâng cao hiệu quả chẩn đoán.
+> **Phát hiện Cơn động kinh Tự động từ Tín hiệu EEG Ngắn hạn** > Dự án nghiên cứu và triển khai các thuật toán Học máy (Machine Learning) để phân tích dữ liệu điện não đồ (EEG). Giải pháp tập trung vào việc trích xuất đặc trưng và phân loại tự động các trạng thái bệnh lý, nhằm tối ưu hóa quy trình chẩn đoán lâm sàng và hỗ trợ can thiệp kịp thời.
 
-🔗 [Repository Link](https://github.com/huuan26/EEG) 
+🔗 [Repository Link](https://github.com/huuan26/EEG](https://github.com/huuan26/EEG-Seizure-Classification) 
 
-**Technologies used:**
-- Python & Jupyter Notebook
-- Machine Learning with `scikit-learn`
-- Data Visualization with `matplotlib` & `seaborn`
-- Feature Engineering & Dimensionality Reduction (`PCA`, `t-SNE`)
+**Technologies & Multivariate Analysis:**
+- Language: R & R Markdown (.Rmd) 
+- Multivariate Statistics: - Phân tích Thành phần Chính (PCA) & t-SNE để trích xuất đặc trưng và giảm chiều không gian vector.
+   + Kiểm định giả thuyết đa biến và phân tích phương sai (MANOVA).
+   + Phân tích cụm (Clustering) để nhận diện các dạng sóng bất thường.
+- Data Visualization: Trực quan hóa tương quan đa biến qua Biplot, Heatmaps và Confusion Matrix.
+- Feature Engineering: Xử lý tín hiệu chuỗi thời gian và chuẩn hóa dữ liệu quy mô lớn.
 
-[View Report (HTML)](https://github.com/huuan26/EEG/blob/main/EEG_Report.html) 
+[View Report (HTML)](https://github.com/huuan26/EEG-Seizure-Classification/blob/main/reports/final_report.html) 
+[Source Code] (https://github.com/huuan26/EEG-Seizure-Classification/tree/main/notebooks).
 
 ---
 
