@@ -11,12 +11,28 @@
 
 ## About Me
 
-- Researcher with a background in mathematics, data science, and software engineering.
-- Currently working on projects involving:
-  - Statistical analysis and visualization using R and Python
-  - Applied machine learning in production environments
-- Interested in Generative AI, Foundation Models, and Explainable AI (XAI)
-- Contributor to open-source projects and research-oriented analytics
+Researcher | Mathematics & Data Science Student
+
+Currently pursuing a Bachelor of Science in Mathematics and Computer Sciences at VNU-HCM University of Science.
+
+I am a researcher with a strong foundation in Mathematics, Data Science, and Computational Modeling. My work bridges the gap between theoretical mathematical frameworks and practical machine learning applications.
+
+### Currently working on projects involving:
+- Advanced statistical analysis, multivariate techniques, and scientific visualization using R and Python.
+- Applied machine learning and numerical computing, specifically solving differential equations (ODEs) using Neural Networks.
+- Dimensionality reduction and feature extraction ($PCA$, $t-SNE$) for complex signal data (EEG).
+
+### Interested in:
+- Generative AI & Foundation Models.
+- Explainable AI (XAI): Making complex mathematical models interpretable in scientific contexts.
+
+### Tech Stack:
+- Languages: Python, R, Matlab, C/C++.
+- Specialized Tools: LaTeX (Professional Math Presentation), R Markdown (Reproducible Research).
+- Core Skills:
+  + Multivariate Statistics.
+  + Feature Engineering.
+  + Dimensionality Reduction ($PCA$, $t-SNE$).
 
 
 ---
@@ -62,6 +78,7 @@
 
 - Email: *phanbuihuuan261103@gmail.com*
 - LinkedIn: [https://www.linkedin.com/in/an-phan-6b6365350/](https://www.linkedin.com/in/an-phan-6b6365350/)
+- Location: Thu Duc City, Ho Chi Minh City, Vietnam
 
 ---
 
