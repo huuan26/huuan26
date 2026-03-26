@@ -3,7 +3,7 @@
 <h1 align="center">Hi there, I'm Phan Bùi Hữu Ân </h1>
 
 <p align="center">
-  <b>AI Engineer | Data Scientist | Researcher</b><br>
+  <b>AI Engineer | Data Scientist | Quantitative Researcher</b><br>
   Passionate about turning data into impactful solutions through Machine Learning, Deep Learning, and Statistical Modeling.
 </p>
 
