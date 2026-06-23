@@ -31,8 +31,7 @@ I am a final-year undergraduate student majoring in **Mathematics and Computer S
 | **Languages** | Python, R, MATLAB, C/C++ |
 | **Data Science & ML** | Pandas, NumPy, Scikit-learn, TensorFlow, PyTorch |
 | **Statistical Computing** | R (tidyverse, stats, lme4), SPSS, JASP |
-| **Visualization** | Matplotlib, Seaborn, ggplot2, Plotly |
-| **Reproducibility** | LaTeX, R Markdown, Jupyter Notebook, Quarto |
+| **Reproducibility** | LaTeX, R Markdown, Jupyter Notebook |
 | **Version Control** | Git, GitHub |
 
 ---
