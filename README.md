@@ -13,8 +13,6 @@
 
 I am a final-year undergraduate student majoring in **Mathematics and Computer Sciences** at VNU-HCM University of Science. My academic and research interests lie at the intersection of statistical modeling, machine learning, and computational mathematics.
 
-I am passionate about translating complex quantitative problems into actionable insights — whether through predictive modeling, experimental design, or algorithmic development. I approach every problem with a researcher's mindset: hypothesis-driven, methodologically sound, and results-oriented.
-
 ---
 
 ## 🔬 Research & Technical Interests
@@ -39,19 +37,7 @@ I am passionate about translating complex quantitative problems into actionable 
 
 ---
 
-## 📊 Quantitative Research Competencies
-
-- **Experimental Design & A/B Testing**: Formulating hypotheses, designing experiments, and interpreting results with statistical significance.
-- **Feature Engineering & Dimensionality Reduction**: Applying PCA, t-SNE, and autoencoders for high-dimensional data.
-- **Model Evaluation & Validation**: Cross-validation, bootstrapping, confusion matrix analysis, ROC/AUC.
-- **Data Wrangling & Cleaning**: Handling missing data, outlier detection, and data transformation at scale.
-- **Communication**: Translating technical findings into clear, actionable narratives for both technical and non-technical stakeholders.
-
----
-
 ## 📫 Let's Connect
-
-I am actively seeking opportunities as a **Quantitative Researcher**, **Data Scientist**, or **Analytics Engineer** — particularly in finance, healthcare, or tech-driven research environments.
 
 - 📧 **Email**: *phanbuihuuan261103@gmail.com*
 - 🔗 **LinkedIn**: [linkedin.com/in/an-phan-6b6365350](https://www.linkedin.com/in/an-phan-6b6365350/)
@@ -60,5 +46,5 @@ I am actively seeking opportunities as a **Quantitative Researcher**, **Data Sci
 ---
 
 <p align="center">
-  <i>“Out of clutter, find simplicity. From discord, find harmony. In the middle of difficulty lies opportunity.”</i>
+  <i>“Accept imperfection to start, but never stop optimizing to grow.”</i>
 </p>
