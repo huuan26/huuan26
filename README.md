@@ -78,7 +78,7 @@ I am a researcher with a strong foundation in Mathematics, Data Science, and Com
 
 - Email: *phanbuihuuan261103@gmail.com*
 - LinkedIn: [https://www.linkedin.com/in/an-phan-6b6365350/](https://www.linkedin.com/in/an-phan-6b6365350/)
-- Location: Thu Duc City, Ho Chi Minh City, Vietnam
+- Location: Ho Chi Minh City, Vietnam
 
 ---
 
