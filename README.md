@@ -1,87 +1,64 @@
 <!-- GitHub Profile README -->
 
-<h1 align="center">Hi there, I'm Phan Bùi Hữu Ân </h1>
+<h1 align="center">Phan Bùi Hữu Ân</h1>
 
 <p align="center">
-  <b>AI Engineer | Data Scientist | Quantitative Researcher</b><br>
-  Passionate about turning data into impactful solutions through Machine Learning, Deep Learning, and Statistical Modeling.
+  <b>Quantitative Researcher | Data Scientist</b><br>
+  Bridging rigorous mathematical modeling with data-driven decision making.
 </p>
 
 ---
 
-## About Me
+## 👋 About Me
 
-Researcher | Mathematics & Data Science Student
+I am a final-year undergraduate student majoring in **Mathematics and Computer Sciences** at VNU-HCM University of Science. My academic and research interests lie at the intersection of statistical modeling, machine learning, and computational mathematics.
 
-Currently pursuing a Bachelor of Science in Mathematics and Computer Sciences at VNU-HCM University of Science.
-
-I am a researcher with a strong foundation in Mathematics, Data Science, and Computational Modeling. My work bridges the gap between theoretical mathematical frameworks and practical machine learning applications.
-
-### Currently working on projects involving:
-- Advanced statistical analysis, multivariate techniques, and scientific visualization using R and Python.
-- Applied machine learning and numerical computing, specifically solving differential equations (ODEs) using Neural Networks.
-- Dimensionality reduction and feature extraction ($PCA$, $t-SNE$) for complex signal data (EEG).
-
-### Interested in:
-- Generative AI & Foundation Models.
-- Explainable AI (XAI): Making complex mathematical models interpretable in scientific contexts.
-
-### Tech Stack:
-- Languages: Python, R, Matlab, C/C++.
-- Specialized Tools: LaTeX (Professional Math Presentation), R Markdown (Reproducible Research).
-- Core Skills:
-  + Multivariate Statistics.
-  + Feature Engineering.
-  + Dimensionality Reduction ($PCA$, $t-SNE$).
-
+I am passionate about translating complex quantitative problems into actionable insights — whether through predictive modeling, experimental design, or algorithmic development. I approach every problem with a researcher's mindset: hypothesis-driven, methodologically sound, and results-oriented.
 
 ---
 
-## Featured Project: Phân tích và Nhận diện Cơn động kinh từ EEG
+## 🔬 Research & Technical Interests
 
-> **Phát hiện Cơn động kinh Tự động từ Tín hiệu EEG Ngắn hạn**
-
-> Dự án nghiên cứu và triển khai các thuật toán Học máy (Machine Learning) để phân tích dữ liệu điện não đồ (EEG). Giải pháp tập trung vào việc trích xuất đặc trưng và phân loại tự động các trạng thái bệnh lý, nhằm tối ưu hóa quy trình chẩn đoán lâm sàng và hỗ trợ can thiệp kịp thời.
-
-🔗 [Repository Link](https://github.com/huuan26/EEG-Seizure-Classification).
-
-**Technologies & Multivariate Analysis:**
-- Language: R & R Markdown (.Rmd) 
-- Multivariate Statistics: - Phân tích Thành phần Chính (PCA) & t-SNE để trích xuất đặc trưng và giảm chiều không gian vector.
-   + Kiểm định giả thuyết đa biến và phân tích phương sai (MANOVA).
-   + Phân tích cụm (Clustering) để nhận diện các dạng sóng bất thường.
-- Data Visualization: Trực quan hóa tương quan đa biến qua Biplot, Heatmaps và Confusion Matrix.
-- Feature Engineering: Xử lý tín hiệu chuỗi thời gian và chuẩn hóa dữ liệu quy mô lớn.
-
-[View Report (HTML)](https://github.com/huuan26/EEG-Seizure-Classification/blob/main/reports/final_report.html) 
-[Source Code](https://github.com/huuan26/EEG-Seizure-Classification/tree/main/notebooks).
+- **Statistical Modeling & Inference**: Multivariate analysis, hypothesis testing, time-series analysis, and Bayesian methods.
+- **Machine Learning & Optimization**: Supervised/unsupervised learning, feature engineering, regularization techniques, and hyperparameter tuning.
+- **Scientific Computing**: Numerical methods, solving differential equations, and simulation-based modeling.
+- **Reproducible Research**: Proficient in creating dynamic documents, technical reports, and interactive dashboards using R Markdown, LaTeX, and Python notebooks.
 
 ---
 
-## Featured Project: VNL2023 Volleyball Data Analysis
+## 🛠️ Technical Toolkit
 
-> **Volleyball National League 2023 Analysis**  
-> This project explores player performance across positions in the 2023 VNL men's volleyball tournament using R and visual analytics.
-
-🔗 [Repository Link](https://github.com/huuan26/TKNC)
-
-**Technologies used:**
-- R & R Markdown (`.Rmd`)
-- Data visualization with `ggplot2`
-- Interactive report generation to HTML
-
-[View Report (HTML)](https://github.com/huuan26/TKNC/blob/main/VNL2023.html)
+| Domain | Tools & Technologies |
+|--------|----------------------|
+| **Languages** | Python, R, MATLAB, C/C++ |
+| **Data Science & ML** | Pandas, NumPy, Scikit-learn, TensorFlow, PyTorch |
+| **Statistical Computing** | R (tidyverse, stats, lme4), SPSS, JASP |
+| **Visualization** | Matplotlib, Seaborn, ggplot2, Plotly |
+| **Reproducibility** | LaTeX, R Markdown, Jupyter Notebook, Quarto |
+| **Version Control** | Git, GitHub |
 
 ---
 
-## Connect With Me
+## 📊 Quantitative Research Competencies
 
-- Email: *phanbuihuuan261103@gmail.com*
-- LinkedIn: [https://www.linkedin.com/in/an-phan-6b6365350/](https://www.linkedin.com/in/an-phan-6b6365350/)
-- Location: Ho Chi Minh City, Vietnam
+- **Experimental Design & A/B Testing**: Formulating hypotheses, designing experiments, and interpreting results with statistical significance.
+- **Feature Engineering & Dimensionality Reduction**: Applying PCA, t-SNE, and autoencoders for high-dimensional data.
+- **Model Evaluation & Validation**: Cross-validation, bootstrapping, confusion matrix analysis, ROC/AUC.
+- **Data Wrangling & Cleaning**: Handling missing data, outlier detection, and data transformation at scale.
+- **Communication**: Translating technical findings into clear, actionable narratives for both technical and non-technical stakeholders.
+
+---
+
+## 📫 Let's Connect
+
+I am actively seeking opportunities as a **Quantitative Researcher**, **Data Scientist**, or **Analytics Engineer** — particularly in finance, healthcare, or tech-driven research environments.
+
+- 📧 **Email**: *phanbuihuuan261103@gmail.com*
+- 🔗 **LinkedIn**: [linkedin.com/in/an-phan-6b6365350](https://www.linkedin.com/in/an-phan-6b6365350/)
+- 📍 **Location**: Ho Chi Minh City, Vietnam
 
 ---
 
 <p align="center">
-  Always learning. Always building. Always improving.
+  <i>“Out of clutter, find simplicity. From discord, find harmony. In the middle of difficulty lies opportunity.”</i>
 </p>
