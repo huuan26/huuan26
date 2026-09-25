@@ -9,7 +9,7 @@
 
 ---
 
-## 👋 About Me
+## About Me
 
 I am a final-year undergraduate student majoring in **Mathematics and Computer Sciences** at VNU-HCM University of Science. My academic and research interests lie at the intersection of statistical modeling, machine learning, and computational mathematics.
 
