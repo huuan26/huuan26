@@ -15,7 +15,7 @@ I am a final-year undergraduate student majoring in **Mathematics and Computer S
 
 ---
 
-## 🔬 Research & Technical Interests
+## Research & Technical Interests
 
 - **Statistical Modeling & Inference**: Multivariate analysis, hypothesis testing, time-series analysis, and Bayesian methods.
 - **Machine Learning & Optimization**: Supervised/unsupervised learning, feature engineering, regularization techniques, and hyperparameter tuning.
@@ -24,7 +24,7 @@ I am a final-year undergraduate student majoring in **Mathematics and Computer S
 
 ---
 
-## 🛠️ Technical Toolkit
+## Technical Toolkit
 
 | Domain | Tools & Technologies |
 |--------|----------------------|
@@ -36,11 +36,11 @@ I am a final-year undergraduate student majoring in **Mathematics and Computer S
 
 ---
 
-## 📫 Let's Connect
+## Let's Connect
 
-- 📧 **Email**: *phanbuihuuan261103@gmail.com*
-- 🔗 **LinkedIn**: [linkedin.com/in/an-phan-6b6365350](https://www.linkedin.com/in/an-phan-6b6365350/)
-- 📍 **Location**: Ho Chi Minh City, Vietnam
+- **Email**: *phanbuihuuan261103@gmail.com*
+- **LinkedIn**: [linkedin.com/in/an-phan-6b6365350](https://www.linkedin.com/in/an-phan-6b6365350/)
+- **Location**: Ho Chi Minh City, Vietnam
 
 ---
 
