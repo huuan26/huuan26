@@ -44,6 +44,3 @@ I am a final-year undergraduate student majoring in **Mathematics and Computer S
 
 ---
 
-<p align="center">
-  <i>“Accept imperfection to start, but never stop optimizing to grow.”</i>
-</p>
