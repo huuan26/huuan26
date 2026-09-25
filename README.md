@@ -17,10 +17,12 @@ I am a final-year undergraduate student majoring in **Mathematics and Computer S
 
 ## Research & Technical Interests
 
+- **Quantitative Finance & Alpha Research**: Designing, backtesting, and optimizing algorithmic trading strategies for derivatives (e.g., VN30F1M) and cryptocurrency markets using Backtrader and Python.
+- **Market Microstructure & Execution Algorithms**: Analyzing order book dynamics (buy/sell imbalances), signal processing, and implementing volume-weighted metrics (TWAP/VWAP) for drawdown control and execution optimization.
+- **Deep Learning & Optimization**: Supervised/unsupervised learning, feature engineering, and applying feedforward neural networks to approximate solutions for Ordinary/Partial Differential Equations (ODEs/PDEs).
 - **Statistical Modeling & Inference**: Multivariate analysis, hypothesis testing, time-series analysis, and Bayesian methods.
-- **Machine Learning & Optimization**: Supervised/unsupervised learning, feature engineering, regularization techniques, and hyperparameter tuning.
-- **Scientific Computing**: Numerical methods, solving differential equations, and simulation-based modeling.
-- **Reproducible Research**: Proficient in creating dynamic documents, technical reports, and interactive dashboards using R Markdown, LaTeX, and Python notebooks.
+- **Scientific Computing**: Numerical methods, algorithmic performance tuning, and simulation-based modeling.
+- **Reproducible Research**: Proficient in creating dynamic documents, technical reports, and interactive dashboards using R Markdown, LaTeX, and Python.
 
 ---
 
