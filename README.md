@@ -11,7 +11,7 @@
 
 ## About Me
 
-I am a final-year undergraduate student majoring in **Mathematics and Computer Sciences** at VNU-HCM University of Science. My academic and research interests lie at the intersection of statistical modeling, machine learning, and computational mathematics.
+I am a Junior Quantitative Researcher with a B.S. in Numerical Analysis from VNU-HCM University of Science. My work focuses on bridging rigorous computational mathematics with data-driven decision making, leveraging expertise in statistical modeling, machine learning, and quantitative strategy development.
 
 ---
 
