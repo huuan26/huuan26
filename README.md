@@ -3,7 +3,7 @@
 <h1 align="center">Phan Bùi Hữu Ân</h1>
 
 <p align="center">
-  <b>Quantitative Researcher | Scientific Machine Learning Engineer | Data Scientist</b><br>
+  <b>Quantitative Researcher | Data Scientist</b><br>
   <i>Bridging rigorous numerical mathematics with systematic quantitative trading and deep learning.</i>
 </p>
 
