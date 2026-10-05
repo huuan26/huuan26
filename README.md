@@ -22,7 +22,7 @@ I am a Quantitative Researcher with an academic foundation in Numerical Analysis
 
 Key research dimensions include:
 - **Quantitative Alpha Research**: Systematic strategy formulation, cross-sectional alpha factor engineering, and event-driven backtesting for index derivatives (VN30F1M) and digital assets using Backtrader and Python.
-- **Scientific Machine Learning & PINNs**: Developing Physics-Informed Neural Networks (PINNs) and deep feed-forward architectures for solving Ordinary and Partial Differential Equations (ODEs/PDEs) using exact boundary-constrained trial formulations.
+- **Scientific Machine Learning & Neural Differential Solvers**: Developing Artificial Neural Networks (ANNs) and deep feed-forward architectures for solving Ordinary and Partial Differential Equations (ODEs/PDEs) using exact boundary-constrained trial formulations.
 - **Biomedical Time-Series & Deep Learning**: Engineering automated feature extraction pipelines and deep neural architectures for non-stationary biological signal processing and classification (EEG seizure detection).
 - **Scientific Computing & Numerical Optimization**: Translating rigorous mathematical models, stochastic processes, and numerical algorithms into high-performance, reproducible implementations.
 
@@ -38,11 +38,11 @@ Key research dimensions include:
 - Categorized into 4 core quantitative disciplines: Momentum & Oscillators, Trend Identification, Volatility Envelopes, and Volume Flow.
 - Includes continuous mathematical validation and seamless package import structure for quantitative research workflows.
 
-### 2. PINN-ODE-Solver
-**Physics-Informed Neural Networks for Differential Equations in PyTorch**  
-*Repository*: [huuan26/PINN-ODE-Solver](https://github.com/huuan26/PINN-ODE-Solver)  
+### 2. ANN-ODE-Solver
+**Artificial Neural Networks for Differential Equations in PyTorch**  
+*Repository*: [huuan26/ANN-ODE-Solver](https://github.com/huuan26/ANN-ODE-Solver)  
 *Tech Stack*: Python, PyTorch, NumPy, Matplotlib  
-- Implements deep neural network solvers for linear, non-linear, oscillatory, second-order, and coupled ODE systems based on the seminal framework by Lagaris et al. (1998).
+- Implements deep feed-forward neural network solvers for linear, non-linear, oscillatory, second-order, and coupled ODE systems based on the foundational framework by Lagaris et al. (1998).
 - Utilizes hard-constrained trial solution formulations that strictly satisfy initial and boundary conditions analytically, eliminating the need for boundary penalty tuning.
 - Employs exact PyTorch computational graph automatic differentiation (`torch.autograd`), achieving over 100x lower error compared to classical Forward Euler integration.
 
@@ -68,7 +68,7 @@ Key research dimensions include:
 | :--- | :--- |
 | **Programming Languages** | Python, R, C/C++, MATLAB, SQL |
 | **Quantitative Finance** | Backtrader, Alpha Factor Research, Backtesting, Risk Modeling, Order Flow |
-| **Machine Learning & Deep Learning** | PyTorch, Scikit-Learn, TensorFlow, PINNs (Scientific Machine Learning) |
+| **Machine Learning & Deep Learning** | PyTorch, Scikit-Learn, TensorFlow, Neural ODE Solvers (SciML) |
 | **Scientific & Numerical Computing** | NumPy, SciPy, Pandas, Numerical Integration, Optimization |
 | **Statistical Analysis** | Multivariate Analysis, Time-Series Modeling, Hypothesis Testing, R (Tidyverse, lme4) |
 | **Reproducibility & Development** | LaTeX, Jupyter Notebook, Git, GitHub, Linux / Bash |
