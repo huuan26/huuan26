@@ -39,21 +39,6 @@ I am a Quantitative Researcher with an academic foundation in Numerical Analysis
 - End-to-end biomedical data science pipeline for detecting and classifying epileptic seizures from multi-channel EEG recordings.
 - Incorporates frequency-domain feature engineering, wavelet transforms, and deep learning architectures with comprehensive cross-validation.
 
----
-
-## Technical Competencies
-
-| Domain | Core Tools & Frameworks |
-| :--- | :--- |
-| **Programming Languages** | Python, R, C/C++, MATLAB, SQL |
-| **Quantitative Finance** | Backtrader, Alpha Factor Research, Backtesting, Risk Modeling, Order Flow |
-| **Machine Learning & Deep Learning** | PyTorch, Scikit-Learn, TensorFlow, Neural ODE Solvers (SciML) |
-| **Scientific & Numerical Computing** | NumPy, SciPy, Pandas, Numerical Integration, Optimization |
-| **Statistical Analysis** | Multivariate Analysis, Time-Series Modeling, Hypothesis Testing, R (Tidyverse, lme4) |
-| **Reproducibility & Development** | LaTeX, Jupyter Notebook, Git, GitHub, Linux / Bash |
-
----
-
 
 ## Education
 
