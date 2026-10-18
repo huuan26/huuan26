@@ -50,7 +50,7 @@ I am a Quantitative Researcher with an academic foundation in Numerical Analysis
 
 ## Education
 
-- **Bachelor of Science in Mathematics (Numerical Analysis,  Talent Program)**  
+- **Bachelor of Mathematics (Talent Program), Specialization in Numerical Analysis**  
   VNU-HCM University of Science (Đại học Khoa học Tự nhiên - ĐHQG TP.HCM)  
   *Focus*: Numerical Methods, Differential Equations, Optimization, Probability & Mathematical Statistics.
 
