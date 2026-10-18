@@ -32,7 +32,10 @@
 *Tech Stack*: Python, Quantitative Finance, Alpha Factors, Technical Indicators, Automated Backtesting, Pytest  
 - **Technical & Research Factor Warmup Calculation Alignment ([PR #294](https://github.com/OpenByteInc/QuantDinger/pull/294))**:
   - Resolved lookback warmup bar under-allocation in `_technical_warmup` (`registry.py`) and `FactorResearchEngine.warmup_bars`, eliminating runtime `factor.insufficientHistory` errors during factor evaluation.
-  - Derived and standardized exact mathematical history requirements for first-difference/return factors ($W_{\mathrm{diff}}(p) = p + 1$), Zero-Lag EMA ($W_{\mathrm{zlema}}(p) = p + \max(1, \lfloor (p - 1) / 2 \rfloor)$), and multi-stage indicators (TEMA $3p$, TRIX $3p+1$, DEMA/ADX $2p$, HMA $p + \lfloor\sqrt{p}\rfloor$).
+  - Formulated and standardized exact mathematical history requirements across factor families:
+    - First-difference & return factors: $W_{\mathrm{diff}}(p) = p + 1$
+    - Zero-Lag EMA: $W_{\mathrm{zlema}}(p) = p + \lfloor (p - 1) / 2 \rfloor$
+    - Multi-stage indicators: TEMA ($3p$), TRIX ($3p + 1$), DEMA / ADX ($2p$), and HMA ($p + \lfloor\sqrt{p}\rfloor$)
   - Implemented dynamic parameter-aware warmup resolution via `factor_warmup_bars(factor_id, params)` and added comprehensive test suites guaranteeing zero regressions across all registered indicators and shorthand research factors (`momentum_<N>`, `volatility_<N>`, `reversal`).
 
 ### 3. ANN-ODE-Solver
