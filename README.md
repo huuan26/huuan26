@@ -7,20 +7,6 @@
   <i>Bridging rigorous numerical mathematics with systematic quantitative trading and deep learning.</i>
 </p>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/an-phan-6b6365350/">LinkedIn</a> &bull;
-  <a href="mailto:phanbuihuuan261103@gmail.com">Email</a> &bull;
-  <a href="https://github.com/huuan26">GitHub</a> &bull;
-  Ho Chi Minh City, Vietnam
-</p>
-
----
-
-## Executive Summary
-
-I am a Quantitative Researcher with an academic foundation in Numerical Analysis.
-
----
 
 ## Featured Research & Open-Source Projects
 
