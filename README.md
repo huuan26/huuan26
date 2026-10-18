@@ -26,7 +26,16 @@
   - Derived and implemented analytical closed-form pricing for return cliquets via forward-start vanilla option decomposition under the risk-neutral measure.
   - Implemented multi-period Monte Carlo pricing with exact lognormal state transitions, validated against analytical Black-Scholes spreads with error $< 10^{-12}$.
 
-### 2. ANN-ODE-Solver
+### 2. QuantDinger (Open-Source Contributor)
+**Open-Source AI Trading OS, Strategy Research & Factor Computation**  
+*Upstream Repository*: [OpenByteInc/QuantDinger](https://github.com/OpenByteInc/QuantDinger) &bull; *Merged PRs*: [#294](https://github.com/OpenByteInc/QuantDinger/pull/294)  
+*Tech Stack*: Python, Quantitative Finance, Alpha Factors, Technical Indicators, Automated Backtesting, Pytest  
+- **Technical & Research Factor Warmup Calculation Alignment ([PR #294](https://github.com/OpenByteInc/QuantDinger/pull/294))**:
+  - Resolved lookback warmup bar under-allocation in `_technical_warmup` (`registry.py`) and `FactorResearchEngine.warmup_bars`, eliminating runtime `factor.insufficientHistory` errors during factor evaluation.
+  - Derived and standardized exact mathematical history requirements for first-difference/return factors ($W_{\mathrm{diff}}(p) = p + 1$), Zero-Lag EMA ($W_{\mathrm{zlema}}(p) = p + \max(1, \lfloor (p - 1) / 2 \rfloor)$), and multi-stage indicators (TEMA $3p$, TRIX $3p+1$, DEMA/ADX $2p$, HMA $p + \lfloor\sqrt{p}\rfloor$).
+  - Implemented dynamic parameter-aware warmup resolution via `factor_warmup_bars(factor_id, params)` and added comprehensive test suites guaranteeing zero regressions across all registered indicators and shorthand research factors (`momentum_<N>`, `volatility_<N>`, `reversal`).
+
+### 3. ANN-ODE-Solver
 **Artificial Neural Networks for Differential Equations in PyTorch**  
 *Repository*: [huuan26/ANN-ODE-Solver](https://github.com/huuan26/ANN-ODE-Solver)  
 *Tech Stack*: Python, PyTorch, NumPy, Matplotlib  
