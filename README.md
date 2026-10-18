@@ -44,12 +44,6 @@ I am a Quantitative Researcher with an academic foundation in Numerical Analysis
 - Utilizes hard-constrained trial solution formulations that strictly satisfy initial and boundary conditions analytically, eliminating the need for boundary penalty tuning.
 - Employs exact PyTorch computational graph automatic differentiation (`torch.autograd`), achieving over 100x lower error compared to classical Forward Euler integration.
 
-### 3. EEG-Seizure-Classification
-**Automated Epileptic Seizure Detection from Short-Term EEG Signals**  
-*Repository*: [huuan26/EEG-Seizure-Classification](https://github.com/huuan26/EEG-Seizure-Classification)  
-*Tech Stack*: Python, PyTorch, Scikit-learn, SciPy, MNE  
-- End-to-end biomedical data science pipeline for detecting and classifying epileptic seizures from multi-channel EEG recordings.
-- Incorporates frequency-domain feature engineering, wavelet transforms, and deep learning architectures with comprehensive cross-validation.
 
 ---
 
