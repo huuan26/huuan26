@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 190" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="orthoBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c14" />
+      <stop offset="50%" stop-color="#0b171e" />
+      <stop offset="100%" stop-color="#05090f" />
+    </linearGradient>
+
+    <!-- Ambient Glows -->
+    <radialGradient id="orthoGlowEmerald" cx="20%" cy="50%" r="45%">
+      <stop offset="0%" stop-color="#3fb950" stop-opacity="0.16" />
+      <stop offset="100%" stop-color="#3fb950" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="orthoGlowCyan" cx="75%" cy="50%" r="45%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Dot Lattice -->
+    <pattern id="orthoGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#8b949e" fill-opacity="0.07" />
+    </pattern>
+
+    <!-- Markers -->
+    <marker id="orthoArrowGreen" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <polygon points="0 0, 7 3.5, 0 7" fill="#3fb950" />
+    </marker>
+    <marker id="orthoArrowCyan" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <polygon points="0 0, 7 3.5, 0 7" fill="#58a6ff" />
+    </marker>
+    <marker id="orthoArrowPurple" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <polygon points="0 0, 7 3.5, 0 7" fill="#bc8cff" />
+    </marker>
+  </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+
+    /* Vector Orthogonalization Rotation */
+    .rotating-vector {
+      transform-origin: 140px 105px;
+      animation: lowdinSnap 9s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    }
+    @keyframes lowdinSnap {
+      0%, 20% { transform: rotate(-32deg); }
+      48%, 76% { transform: rotate(0deg); }
+      92%, 100% { transform: rotate(-32deg); }
+    }
+
+    /* Right Angle Symbol Appearance */
+    .ortho-angle {
+      animation: angleGlow 9s ease-in-out infinite;
+    }
+    @keyframes angleGlow {
+      0%, 25% { opacity: 0; }
+      48%, 76% { opacity: 1; }
+      92%, 100% { opacity: 0; }
+    }
+
+    /* State Badge Transition */
+    .badge-collinear {
+      animation: colBadge 9s ease-in-out infinite;
+    }
+    .badge-orthonormal {
+      animation: orthoBadge 9s ease-in-out infinite;
+    }
+    @keyframes colBadge {
+      0%, 24% { opacity: 1; transform: translateY(0); }
+      40%, 82% { opacity: 0; transform: translateY(-4px); }
+      94%, 100% { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes orthoBadge {
+      0%, 28% { opacity: 0; transform: translateY(4px); }
+      46%, 78% { opacity: 1; transform: translateY(0); }
+      90%, 100% { opacity: 0; transform: translateY(4px); }
+    }
+
+    /* Metric Bar Progress */
+    .vif-bar {
+      animation: vifProgress 9s ease-in-out infinite;
+    }
+    @keyframes vifProgress {
+      0%, 22% { width: 140px; fill: #f85149; }
+      46%, 78% { width: 18px; fill: #3fb950; }
+      92%, 100% { width: 140px; fill: #f85149; }
+    }
+  </style>
+
+  <!-- Container -->
+  <rect x="1" y="1" width="898" height="188" rx="10" fill="url(#orthoBg)" stroke="#30363d" stroke-width="1.2" />
+  <rect x="1" y="1" width="898" height="188" rx="10" fill="url(#orthoGrid)" />
+  <rect x="1" y="1" width="898" height="188" rx="10" fill="url(#orthoGlowEmerald)" />
+  <rect x="1" y="1" width="898" height="188" rx="10" fill="url(#orthoGlowCyan)" />
+
+  <!-- Title & Header -->
+  <g transform="translate(24, 28)">
+    <circle cx="4" cy="4" r="4" fill="#3fb950" />
+    <text x="16" y="8" fill="#e6edf3" font-size="12" font-weight="700" class="sans" letter-spacing="0.5">SYMMETRIC FACTOR ORTHOGONALIZATION &amp; FWL QR FRAMEWORK</text>
+    <rect x="475" y="-4" width="138" height="18" rx="9" fill="rgba(63, 185, 80, 0.12)" stroke="#3fb950" stroke-width="0.8" stroke-opacity="0.4" />
+    <text x="544" y="8" fill="#3fb950" font-size="9.5" font-weight="600" text-anchor="middle" class="mono">ORTHOQUANT</text>
+  </g>
+
+  <!-- LEFT VISUALIZER: Dynamic 3D Lowdin SVD Rotation -->
+  <g transform="translate(30, 48)">
+    <text x="0" y="8" fill="#8b949e" font-size="10" font-weight="600" class="mono">LOWDIN SVD BASIS ROTATION (F^T F = I_K)</text>
+
+    <!-- Coordinate Plane Axis -->
+    <ellipse cx="140" cy="105" rx="80" ry="24" fill="none" stroke="#21262d" stroke-dasharray="3 4" stroke-width="0.9" />
+
+    <!-- Right-angle indicator -->
+    <path d="M152,105 L152,93 L140,93" fill="none" stroke="#3fb950" stroke-width="1.6" class="ortho-angle" />
+
+    <!-- Vector q2 (Vertical Basis, Emerald) -->
+    <line x1="140" y1="105" x2="140" y2="40" stroke="#3fb950" stroke-width="2.4" marker-end="url(#orthoArrowGreen)" />
+    <text x="132" y="44" fill="#56d364" font-size="10" font-weight="700" class="mono">q₂</text>
+
+    <!-- Vector q3 (Depth Axis, Purple) -->
+    <line x1="140" y1="105" x2="80" y2="128" stroke="#bc8cff" stroke-width="2" marker-end="url(#orthoArrowPurple)" />
+    <text x="72" y="126" fill="#d2a8ff" font-size="10" font-weight="700" class="mono">q₃</text>
+
+    <!-- Rotating Vector q1 (Lowdin Dynamic SVD) -->
+    <g class="rotating-vector">
+      <line x1="140" y1="105" x2="215" y2="105" stroke="#58a6ff" stroke-width="2.4" marker-end="url(#orthoArrowCyan)" />
+      <text x="222" y="103" fill="#79c0ff" font-size="10" font-weight="700" class="mono">q₁</text>
+    </g>
+
+    <!-- Coordinate Center -->
+    <circle cx="140" cy="105" r="3.5" fill="#f0f6fc" />
+
+    <!-- Mini Status Tag below Vector -->
+    <g transform="translate(140, 136)">
+      <!-- Collinear Tag -->
+      <g class="badge-collinear">
+        <rect x="-65" y="-10" width="130" height="18" rx="9" fill="rgba(248, 81, 73, 0.12)" stroke="#f85149" stroke-width="0.8" />
+        <circle cx="-52" cy="-1" r="2.5" fill="#f85149" />
+        <text x="-42" y="3" fill="#ff7b72" font-size="8.5" font-weight="600" class="mono">COLLINEAR: κ₂=18.5</text>
+      </g>
+      <!-- Orthonormal Tag -->
+      <g class="badge-orthonormal">
+        <rect x="-65" y="-10" width="130" height="18" rx="9" fill="rgba(63, 185, 80, 0.15)" stroke="#3fb950" stroke-width="0.8" />
+        <circle cx="-52" cy="-1" r="2.5" fill="#3fb950" />
+        <text x="-42" y="3" fill="#56d364" font-size="8.5" font-weight="600" class="mono">LOWDIN: κ₂=1.000 (I_K)</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Vertical Divider -->
+  <line x1="330" y1="25" x2="330" y2="168" stroke="#30363d" stroke-width="1" stroke-dasharray="3 4" stroke-opacity="0.6" />
+
+  <!-- RIGHT VISUALIZER: Collinearity Diagnostics & FWL QR Neutralization -->
+  <g transform="translate(355, 48)">
+    <text x="0" y="8" fill="#8b949e" font-size="10" font-weight="600" class="mono">FWL QR RESIDUALIZATION &amp; COLLINEARITY METRICS</text>
+
+    <!-- Metric HUD Box 1: Condition Number & Frobenius -->
+    <g transform="translate(10, 22)">
+      <rect x="0" y="0" width="240" height="50" rx="6" fill="rgba(11, 23, 30, 0.85)" stroke="#30363d" stroke-width="0.9" />
+      <text x="12" y="16" fill="#8b949e" font-size="8.5" class="mono">Condition Number (2-Norm)</text>
+      <text x="12" y="36" fill="#56d364" font-size="11.5" font-weight="700" class="mono">κ₂(F) = 1.000 (Exact I_K)</text>
+      <rect x="175" y="10" width="54" height="16" rx="4" fill="rgba(63, 185, 80, 0.15)" stroke="#3fb950" stroke-width="0.6" />
+      <text x="202" y="21" fill="#3fb950" font-size="8" font-weight="600" text-anchor="middle" class="mono">SVD OPT</text>
+    </g>
+
+    <!-- Metric HUD Box 2: VIF Reduction Meter -->
+    <g transform="translate(265, 22)">
+      <rect x="0" y="0" width="240" height="50" rx="6" fill="rgba(11, 23, 30, 0.85)" stroke="#30363d" stroke-width="0.9" />
+      <text x="12" y="16" fill="#8b949e" font-size="8.5" class="mono">Max Variance Inflation Factor (VIF)</text>
+      <!-- Progress Bar Track -->
+      <rect x="12" y="26" width="140" height="7" rx="3.5" fill="#21262d" />
+      <rect x="12" y="26" width="18" height="7" rx="3.5" class="vif-bar" />
+      <text x="160" y="33" fill="#3fb950" font-size="9" font-weight="700" class="mono">VIF = 1.00</text>
+    </g>
+
+    <!-- Lower Console Box: FWL Projection & Permutation Theorem -->
+    <g transform="translate(10, 80)">
+      <rect x="0" y="0" width="495" height="42" rx="6" fill="rgba(9, 14, 24, 0.9)" stroke="#21262d" stroke-width="0.9" />
+      <circle cx="16" cy="21" r="3.5" fill="#58a6ff" />
+      <text x="28" y="17" fill="#c9d1d9" font-size="8.5" font-weight="600" class="mono">Frisch–Waugh–Lovell QR Operator:</text>
+      <text x="28" y="31" fill="#79c0ff" font-size="9.5" font-weight="700" class="mono">F_neutral = (I - Q_X Q_X^T) F • Permutation Equivariant: Lowdin(FP) = Lowdin(F)P</text>
+    </g>
+
+    <!-- Bottom Specs Ribbon -->
+    <text x="12" y="138" fill="#8b949e" font-size="8.5" class="mono">Minimal Frobenius Distortion ||F - F_tilde||_F • 26 Passed Tests (97% Cov)</text>
+  </g>
+</svg>

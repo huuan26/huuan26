@@ -16,6 +16,11 @@ Major contributions to open-source quantitative finance and algorithmic trading 
 
 ### [FinancePy](https://github.com/domokane/FinancePy)
 *Python library for valuation and risk management of financial derivatives.*  
+
+<p align="center">
+  <img src="assets/financepy_card.svg" alt="FinancePy Quantitative Derivatives Engine" width="100%" />
+</p>
+
 - **CDSCurve Vectorization & Day Count Alignment** [![PR #408 - Merged](https://img.shields.io/badge/PR_%23408-Merged-8250df?style=flat-square)](https://github.com/domokane/FinancePy/pull/408): Aligned day-count convention handling in `CDSCurve.df` with underlying discount curves (fixing hardcoded ACT/365 bypass), implemented seamless vectorization for `Date` lists across discount factors and survival probabilities (`times_from_dates`), and re-enabled comprehensive regression suites.
 - **Shifted Black–Derman–Toy Model** [![PR #406 - Merged](https://img.shields.io/badge/PR_%23406-Merged-8250df?style=flat-square)](https://github.com/domokane/FinancePy/pull/406): Extended BDT short-rate tree dynamics to support negative interest rates and updated lattice-based derivative pricing under negative yield environments.
 - **Equity Cliquet Option Valuation** [![PR #404 - Merged](https://img.shields.io/badge/PR_%23404-Merged-8250df?style=flat-square)](https://github.com/domokane/FinancePy/pull/404): Implemented closed-form analytical pricing formulas and Monte Carlo simulation for return cliquet options with local and global caps/floors, validated with regression unit tests.
@@ -23,6 +28,11 @@ Major contributions to open-source quantitative finance and algorithmic trading 
 
 ### [QuantDinger](https://github.com/OpenByteInc/QuantDinger)
 *Open-source quantitative trading and strategy research platform.*  
+
+<p align="center">
+  <img src="assets/quantdinger_card.svg" alt="QuantDinger Algo Trading Engine" width="100%" />
+</p>
+
 - **Multi-Timeframe Duration & Metric Annualization** [![PR #298 - Merged](https://img.shields.io/badge/PR_%23298-Merged-8250df?style=flat-square)](https://github.com/OpenByteInc/QuantDinger/pull/298): Aligned monthly timeframe duration (2,592,000 s), annualization scaling factors ($N = 12.0$ for Sharpe, Sortino, volatility), and driving frequency hierarchy across Strategy API V2, validated with comprehensive test suites.
 - **Factor Warmup Alignment** [![PR #294 - Merged](https://img.shields.io/badge/PR_%23294-Merged-8250df?style=flat-square)](https://github.com/OpenByteInc/QuantDinger/pull/294): Standardized lookback warmup requirements across technical indicators (EMA, HMA, TEMA, etc.) with parameter-aware dynamic resolution and unit tests to ensure reliable backtesting data feeds and factor evaluation.
 - *Tech Stack*: Python, Quantitative Backtesting, Strategy API V2, Alpha Factors, Technical Indicators, Pytest
@@ -33,6 +43,11 @@ Major contributions to open-source quantitative finance and algorithmic trading 
 
 ### [OrthoQuant](https://github.com/huuan26/OrthoQuant)
 *Symmetric factor orthogonalization and cross-sectional risk neutralization framework.*  
+
+<p align="center">
+  <img src="assets/orthoquant_card.svg" alt="OrthoQuant Symmetric Orthogonalization" width="100%" />
+</p>
+
 - Implemented Lowdin symmetric orthogonalization using SVD to eliminate cross-factor collinearity while minimizing signal distortion.
 - Formulated Frisch–Waugh–Lovell QR projection for dynamic sector and market risk exposure stripping.
 - Developed collinearity diagnostics (VIF, condition number, ENF) and cross-sectional Rank IC evaluation.
@@ -40,6 +55,11 @@ Major contributions to open-source quantitative finance and algorithmic trading 
 
 ### [OptiAlpha](https://github.com/huuan26/OptiAlpha)
 *Convex regularized alpha combination and dynamic multi-factor allocation engine.*  
+
+<p align="center">
+  <img src="assets/optialpha_card.svg" alt="OptiAlpha Convex Alpha Combination" width="100%" />
+</p>
+
 - Formulated convex regularized objective balancing IC maximization, factor portfolio risk, and $L_1$ turnover penalties solved via accelerated proximal gradient (FISTA).
 - Implemented Ledoit–Wolf analytical covariance shrinkage and Higham nearest symmetric positive-definite (SPD) projection.
 - Integrated online exponentiated gradient adaptive weighting and Meucci Effective Number of Alphas (ENF) risk attribution.
@@ -47,6 +67,11 @@ Major contributions to open-source quantitative finance and algorithmic trading 
 
 ### [ANN-ODE-Solver](https://github.com/huuan26/ANN-ODE-Solver)
 *Neural network-based differential equation solver in PyTorch.*  
+
+<p align="center">
+  <img src="assets/ann_ode_card.svg" alt="ANN-ODE-Solver Physics-Informed Neural Network" width="100%" />
+</p>
+
 - Built neural network architectures to solve linear, non-linear, and coupled ODE systems based on the Lagaris et al. framework.
 - Formulated trial solutions that analytically satisfy initial and boundary conditions.
 - Utilized PyTorch automatic differentiation (`autograd`) for gradient computation and optimization.

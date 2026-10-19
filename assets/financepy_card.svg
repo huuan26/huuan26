@@ -1,0 +1,227 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 190" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="finBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c15" />
+      <stop offset="50%" stop-color="#0c1322" />
+      <stop offset="100%" stop-color="#060910" />
+    </linearGradient>
+
+    <!-- Ambient Glow -->
+    <radialGradient id="finGlow1" cx="25%" cy="50%" r="45%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="finGlow2" cx="75%" cy="50%" r="45%">
+      <stop offset="0%" stop-color="#bc8cff" stop-opacity="0.10" />
+      <stop offset="100%" stop-color="#bc8cff" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Dot Lattice -->
+    <pattern id="finGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#8b949e" fill-opacity="0.07" />
+    </pattern>
+
+    <!-- Curve Gradients -->
+    <linearGradient id="finCurveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff" />
+      <stop offset="60%" stop-color="#bc8cff" />
+      <stop offset="100%" stop-color="#f0883e" />
+    </linearGradient>
+
+    <linearGradient id="finTreeLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#388bfd" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#bc8cff" stop-opacity="0.9" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+
+    /* Node Pulses */
+    .tree-node { animation: nodePulse 3.5s ease-in-out infinite; }
+    .tree-node-neg { animation: negNodePulse 3.5s ease-in-out infinite; }
+    @keyframes nodePulse {
+      0%, 100% { r: 4.5; fill: #58a6ff; }
+      50% { r: 6; fill: #79c0ff; filter: drop-shadow(0 0 4px #58a6ff); }
+    }
+    @keyframes negNodePulse {
+      0%, 100% { r: 4; fill: #f0883e; }
+      50% { r: 5.5; fill: #ffa657; filter: drop-shadow(0 0 5px #f0883e); }
+    }
+
+    /* Tree Branch Pulse */
+    .branch-path {
+      stroke-dasharray: 6 4;
+      animation: branchFlow 12s linear infinite;
+    }
+    @keyframes branchFlow {
+      to { stroke-dashoffset: -100; }
+    }
+
+    /* Scanning Radar Cursor along CDS Curve */
+    .cds-scanner {
+      animation: cdsScan 6s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    }
+    @keyframes cdsScan {
+      0% { cx: 480; cy: 68; opacity: 1; }
+      50% { cx: 620; cy: 110; opacity: 1; }
+      90% { cx: 710; cy: 138; opacity: 0.8; }
+      100% { cx: 480; cy: 68; opacity: 0; }
+    }
+
+    /* Status Pill Transitions */
+    .tag-bdt { animation: tagBdtCycle 8s ease-in-out infinite; }
+    @keyframes tagBdtCycle {
+      0%, 45% { opacity: 1; transform: translateY(0); }
+      50%, 95% { opacity: 0; transform: translateY(-4px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    .tag-cliquet { animation: tagCliquetCycle 8s ease-in-out infinite; }
+    @keyframes tagCliquetCycle {
+      0%, 45% { opacity: 0; transform: translateY(4px); }
+      50%, 95% { opacity: 1; transform: translateY(0); }
+      100% { opacity: 0; transform: translateY(4px); }
+    }
+
+    /* Live Data Stream Ticker */
+    .tick-float {
+      animation: tickFloat 4s ease-in-out infinite alternate;
+    }
+    @keyframes tickFloat {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-3px); }
+    }
+  </style>
+
+  <!-- Container -->
+  <rect x="1" y="1" width="898" height="188" rx="10" fill="url(#finBg)" stroke="#30363d" stroke-width="1.2" />
+  <rect x="1" y="1" width="898" height="188" rx="10" fill="url(#finGrid)" />
+  <rect x="1" y="1" width="898" height="188" rx="10" fill="url(#finGlow1)" />
+  <rect x="1" y="1" width="898" height="188" rx="10" fill="url(#finGlow2)" />
+
+  <!-- Section Title & Badge -->
+  <g transform="translate(24, 28)">
+    <circle cx="4" cy="4" r="4" fill="#58a6ff" />
+    <text x="16" y="8" fill="#e6edf3" font-size="12" font-weight="700" class="sans" letter-spacing="0.5">DERIVATIVES PRICING &amp; YIELD CURVE ENGINE</text>
+    <rect x="360" y="-4" width="138" height="18" rx="9" fill="rgba(88, 166, 255, 0.12)" stroke="#58a6ff" stroke-width="0.8" stroke-opacity="0.4" />
+    <text x="429" y="8" fill="#58a6ff" font-size="9.5" font-weight="600" text-anchor="middle" class="mono">FINANCEPY CORE</text>
+  </g>
+
+  <!-- LEFT VISUALIZER: Shifted Black-Derman-Toy (BDT) Short-Rate Tree Lattice -->
+  <g transform="translate(30, 48)">
+    <!-- Subtitle -->
+    <text x="0" y="8" fill="#8b949e" font-size="10" font-weight="600" class="mono">SHIFTED BDT SHORT-RATE LATTICE (r &lt; 0 SUPPORT)</text>
+    
+    <!-- Tree Lattice Links -->
+    <g stroke="url(#finTreeLine)" stroke-width="1.3" fill="none" class="branch-path">
+      <!-- Level 0 to Level 1 -->
+      <line x1="30" y1="65" x2="90" y2="42" />
+      <line x1="30" y1="65" x2="90" y2="88" />
+      
+      <!-- Level 1 to Level 2 -->
+      <line x1="90" y1="42" x2="160" y2="25" />
+      <line x1="90" y1="42" x2="160" y2="65" />
+      <line x1="90" y1="88" x2="160" y2="65" />
+      <line x1="90" y1="88" x2="160" y2="105" />
+
+      <!-- Level 2 to Level 3 -->
+      <line x1="160" y1="25" x2="235" y2="12" />
+      <line x1="160" y1="25" x2="235" y2="45" />
+      <line x1="160" y1="65" x2="235" y2="45" />
+      <line x1="160" y1="65" x2="235" y2="85" />
+      <line x1="160" y1="105" x2="235" y2="85" />
+      <line x1="160" y1="105" x2="235" y2="120" />
+    </g>
+
+    <!-- Negative Yield Shifted Zone Guide -->
+    <rect x="22" y="98" width="225" height="30" rx="4" fill="rgba(240, 136, 62, 0.08)" stroke="#f0883e" stroke-width="0.8" stroke-dasharray="2 3" stroke-opacity="0.5" />
+    <text x="28" y="118" fill="#f0883e" font-size="8.5" class="mono">Shifted Region: r &lt; 0</text>
+
+    <!-- Tree Nodes Level 0 -->
+    <circle cx="30" cy="65" r="4.5" class="tree-node" />
+    <text x="24" y="55" fill="#c9d1d9" font-size="8.5" class="mono">r₀</text>
+
+    <!-- Nodes Level 1 -->
+    <circle cx="90" cy="42" r="4.5" class="tree-node" />
+    <text x="84" y="32" fill="#c9d1d9" font-size="8.5" class="mono">r₁u</text>
+    <circle cx="90" cy="88" r="4.5" class="tree-node" />
+    <text x="84" y="102" fill="#c9d1d9" font-size="8.5" class="mono">r₁d</text>
+
+    <!-- Nodes Level 2 -->
+    <circle cx="160" cy="25" r="4.5" class="tree-node" />
+    <circle cx="160" cy="65" r="4.5" class="tree-node" />
+    <circle cx="160" cy="105" r="4" class="tree-node-neg" />
+    <text x="168" y="108" fill="#ffa657" font-size="8" class="mono">-0.42%</text>
+
+    <!-- Nodes Level 3 -->
+    <circle cx="235" cy="12" r="4.5" class="tree-node" />
+    <circle cx="235" cy="45" r="4.5" class="tree-node" />
+    <circle cx="235" cy="85" r="4.5" class="tree-node" />
+    <circle cx="235" cy="120" r="4" class="tree-node-neg" />
+    <text x="243" y="123" fill="#ffa657" font-size="8" class="mono">-0.85%</text>
+
+    <!-- Time Step Axis -->
+    <line x1="25" y1="134" x2="250" y2="134" stroke="#30363d" stroke-width="1" />
+    <text x="30" y="143" fill="#6e7681" font-size="7.5" class="mono">t=0</text>
+    <text x="90" y="143" fill="#6e7681" font-size="7.5" class="mono">t=1</text>
+    <text x="160" y="143" fill="#6e7681" font-size="7.5" class="mono">t=2</text>
+    <text x="235" y="143" fill="#6e7681" font-size="7.5" class="mono">t=3 (Years)</text>
+  </g>
+
+  <!-- Vertical Divider -->
+  <line x1="330" y1="25" x2="330" y2="168" stroke="#30363d" stroke-width="1" stroke-dasharray="3 4" stroke-opacity="0.6" />
+
+  <!-- RIGHT VISUALIZER: CDSCurve Vectorization & Cliquet Monte Carlo -->
+  <g transform="translate(355, 48)">
+    <text x="0" y="8" fill="#8b949e" font-size="10" font-weight="600" class="mono">CDSCURVE VECTORIZATION &amp; CLIQUET SIMULATION</text>
+
+    <!-- Mini Chart Axis -->
+    <line x1="20" y1="120" x2="280" y2="120" stroke="#30363d" stroke-width="1" />
+    <line x1="20" y1="20" x2="20" y2="120" stroke="#30363d" stroke-width="1" />
+    <text x="282" y="123" fill="#6e7681" font-size="8" class="mono">Tenor</text>
+    <text x="12" y="18" fill="#6e7681" font-size="8" class="mono">S(t)</text>
+
+    <!-- Grid Lines -->
+    <line x1="20" y1="50" x2="280" y2="50" stroke="#21262d" stroke-dasharray="2 4" stroke-width="0.8" />
+    <line x1="20" y1="85" x2="280" y2="85" stroke="#21262d" stroke-dasharray="2 4" stroke-width="0.8" />
+
+    <!-- Survival Probability Discount Curves (Vectorized) -->
+    <!-- Base Vectorized Curve -->
+    <path d="M20,25 C70,45 130,80 200,95 S260,108 280,112" fill="none" stroke="url(#finCurveGrad)" stroke-width="2.5" />
+    
+    <!-- Secondary Monte Carlo Cliquet Payoff Sample Path -->
+    <path d="M20,60 Q60,35 100,55 T170,40 T230,70 T280,65" fill="none" stroke="#bc8cff" stroke-width="1.2" stroke-opacity="0.45" stroke-dasharray="3 3" />
+    <path d="M20,70 Q70,95 120,65 T180,85 T240,60 T280,75" fill="none" stroke="#58a6ff" stroke-width="1.2" stroke-opacity="0.35" stroke-dasharray="3 3" />
+
+    <!-- Scanning Node -->
+    <circle cx="120" cy="72" r="4" fill="#bc8cff" class="cds-scanner" />
+
+    <!-- Dynamic Metric Display Box 1: Vectorization -->
+    <g transform="translate(305, 12)">
+      <rect x="0" y="0" width="205" height="46" rx="6" fill="rgba(13, 20, 36, 0.85)" stroke="#30363d" stroke-width="0.9" />
+      <text x="12" y="16" fill="#8b949e" font-size="8.5" class="mono">CDSCurve.df &amp; times_from_dates</text>
+      <text x="12" y="34" fill="#3fb950" font-size="11" font-weight="700" class="mono">Vectorized (ACT/365)</text>
+      <circle cx="190" cy="23" r="3" fill="#3fb950" />
+    </g>
+
+    <!-- Dynamic Metric Display Box 2: Alternating Status -->
+    <g transform="translate(305, 68)">
+      <rect x="0" y="0" width="205" height="52" rx="6" fill="rgba(13, 20, 36, 0.85)" stroke="#30363d" stroke-width="0.9" />
+      <!-- State 1: BDT -->
+      <g class="tag-bdt">
+        <text x="12" y="18" fill="#8b949e" font-size="8.5" class="mono">Shifted BDT Tree Model</text>
+        <text x="12" y="38" fill="#f0883e" font-size="11" font-weight="700" class="mono">r_shift = -0.85% (Valid)</text>
+      </g>
+      <!-- State 2: Cliquet -->
+      <g class="tag-cliquet">
+        <text x="12" y="18" fill="#8b949e" font-size="8.5" class="mono">Equity Cliquet Pricing</text>
+        <text x="12" y="38" fill="#58a6ff" font-size="11" font-weight="700" class="mono">Local Cap/Floor Payoff</text>
+      </g>
+    </g>
+
+    <!-- Bottom Specs Ribbon -->
+    <text x="20" y="138" fill="#8b949e" font-size="8.5" class="mono">PRs #404, #406, #408 • Merged to domokane/FinancePy • 100% Regression Passed</text>
+  </g>
+</svg>

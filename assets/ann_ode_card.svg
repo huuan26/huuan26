@@ -1,0 +1,216 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 190" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="annBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c14" />
+      <stop offset="50%" stop-color="#19111e" />
+      <stop offset="100%" stop-color="#060910" />
+    </linearGradient>
+
+    <!-- Ambient Glows -->
+    <radialGradient id="annGlowPink" cx="20%" cy="50%" r="45%">
+      <stop offset="0%" stop-color="#d2a8ff" stop-opacity="0.14" />
+      <stop offset="100%" stop-color="#d2a8ff" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="annGlowCyan" cx="75%" cy="50%" r="45%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Dot Lattice -->
+    <pattern id="annGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#8b949e" fill-opacity="0.07" />
+    </pattern>
+
+    <!-- Synapse Gradient -->
+    <linearGradient id="synapseGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.4" />
+      <stop offset="50%" stop-color="#d2a8ff" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#f0883e" stop-opacity="0.6" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+
+    /* Synapse pulse flow */
+    .synapse-line {
+      stroke-dasharray: 5 4;
+      animation: synapseFlow 6s linear infinite;
+    }
+    @keyframes synapseFlow {
+      to { stroke-dashoffset: -50; }
+    }
+
+    /* Node Pulses */
+    .net-node-in { animation: nodeInGlow 3s ease-in-out infinite; }
+    .net-node-hid { animation: nodeHidGlow 3s ease-in-out infinite 0.5s; }
+    .net-node-out { animation: nodeOutGlow 3s ease-in-out infinite 1s; }
+
+    @keyframes nodeInGlow {
+      0%, 100% { r: 5; fill: #58a6ff; }
+      50% { r: 6.5; fill: #79c0ff; filter: drop-shadow(0 0 5px #58a6ff); }
+    }
+    @keyframes nodeHidGlow {
+      0%, 100% { r: 4.5; fill: #bc8cff; }
+      50% { r: 6; fill: #d2a8ff; filter: drop-shadow(0 0 5px #bc8cff); }
+    }
+    @keyframes nodeOutGlow {
+      0%, 100% { r: 5.5; fill: #f0883e; }
+      50% { r: 7; fill: #ffa657; filter: drop-shadow(0 0 6px #f0883e); }
+    }
+
+    /* Solution Curve Convergence */
+    .ode-trial-curve {
+      animation: trialFit 8s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    }
+    @keyframes trialFit {
+      0%, 15% { d: path("M20,100 Q80,20 150,90 T270,75"); stroke: #f0883e; stroke-opacity: 0.6; }
+      45%, 80% { d: path("M20,100 Q75,30 145,75 T270,45"); stroke: #3fb950; stroke-opacity: 0.95; }
+      95%, 100% { d: path("M20,100 Q80,20 150,90 T270,75"); stroke: #f0883e; stroke-opacity: 0.6; }
+    }
+
+    /* Loss Meter Decay */
+    .loss-gauge {
+      animation: lossDecay 8s ease-in-out infinite;
+    }
+    @keyframes lossDecay {
+      0%, 18% { width: 140px; fill: #f85149; }
+      48%, 80% { width: 14px; fill: #3fb950; }
+      95%, 100% { width: 140px; fill: #f85149; }
+    }
+
+    /* Alternating Status Console */
+    .ode-cycle-1 { animation: cycleO1 8s ease-in-out infinite; }
+    .ode-cycle-2 { animation: cycleO2 8s ease-in-out infinite; }
+    @keyframes cycleO1 {
+      0%, 45% { opacity: 1; transform: translateY(0); }
+      50%, 95% { opacity: 0; transform: translateY(-4px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes cycleO2 {
+      0%, 45% { opacity: 0; transform: translateY(4px); }
+      50%, 95% { opacity: 1; transform: translateY(0); }
+      100% { opacity: 0; transform: translateY(4px); }
+    }
+  </style>
+
+  <!-- Container -->
+  <rect x="1" y="1" width="898" height="188" rx="10" fill="url(#annBg)" stroke="#30363d" stroke-width="1.2" />
+  <rect x="1" y="1" width="898" height="188" rx="10" fill="url(#annGrid)" />
+  <rect x="1" y="1" width="898" height="188" rx="10" fill="url(#annGlowPink)" />
+  <rect x="1" y="1" width="898" height="188" rx="10" fill="url(#annGlowCyan)" />
+
+  <!-- Title & Header -->
+  <g transform="translate(24, 28)">
+    <circle cx="4" cy="4" r="4" fill="#d2a8ff" />
+    <text x="16" y="8" fill="#e6edf3" font-size="12" font-weight="700" class="sans" letter-spacing="0.5">PHYSICS-INFORMED NEURAL NETWORK DIFFERENTIAL EQUATION SOLVER</text>
+    <rect x="525" y="-4" width="144" height="18" rx="9" fill="rgba(210, 168, 255, 0.12)" stroke="#d2a8ff" stroke-width="0.8" stroke-opacity="0.4" />
+    <text x="597" y="8" fill="#d2a8ff" font-size="9.5" font-weight="600" text-anchor="middle" class="mono">ANN-ODE-SOLVER</text>
+  </g>
+
+  <!-- LEFT VISUALIZER: Neural Architecture & Boundary-Satisfying Trial Formulation -->
+  <g transform="translate(30, 48)">
+    <text x="0" y="8" fill="#8b949e" font-size="10" font-weight="600" class="mono">NEURAL TRIAL ARCHITECTURE Ψ_t(x) = A(x) + B(x)·N(x)</text>
+
+    <!-- Network Synapses -->
+    <g stroke="url(#synapseGrad)" stroke-width="1.2" fill="none" class="synapse-line">
+      <!-- In to Hidden -->
+      <line x1="35" y1="75" x2="115" y2="40" />
+      <line x1="35" y1="75" x2="115" y2="65" />
+      <line x1="35" y1="75" x2="115" y2="90" />
+      <line x1="35" y1="75" x2="115" y2="115" />
+
+      <!-- Hidden to Hidden 2 -->
+      <line x1="115" y1="40" x2="185" y2="50" />
+      <line x1="115" y1="40" x2="185" y2="80" />
+      <line x1="115" y1="40" x2="185" y2="105" />
+      
+      <line x1="115" y1="65" x2="185" y2="50" />
+      <line x1="115" y1="65" x2="185" y2="80" />
+      <line x1="115" y1="65" x2="185" y2="105" />
+
+      <line x1="115" y1="90" x2="185" y2="50" />
+      <line x1="115" y1="90" x2="185" y2="80" />
+      <line x1="115" y1="90" x2="185" y2="105" />
+
+      <line x1="115" y1="115" x2="185" y2="50" />
+      <line x1="115" y1="115" x2="185" y2="80" />
+      <line x1="115" y1="115" x2="185" y2="105" />
+
+      <!-- Hidden 2 to Output -->
+      <line x1="185" y1="50" x2="250" y2="75" />
+      <line x1="185" y1="80" x2="250" y2="75" />
+      <line x1="185" y1="105" x2="250" y2="75" />
+    </g>
+
+    <!-- Layer Nodes -->
+    <!-- Input Layer x -->
+    <circle cx="35" cy="75" r="5" class="net-node-in" />
+    <text x="35" y="62" fill="#58a6ff" font-size="9" font-weight="700" text-anchor="middle" class="mono">x</text>
+
+    <!-- Hidden Layer 1 -->
+    <circle cx="115" cy="40" r="4.5" class="net-node-hid" />
+    <circle cx="115" cy="65" r="4.5" class="net-node-hid" />
+    <circle cx="115" cy="90" r="4.5" class="net-node-hid" />
+    <circle cx="115" cy="115" r="4.5" class="net-node-hid" />
+    <text x="115" y="28" fill="#bc8cff" font-size="8" font-weight="600" text-anchor="middle" class="mono">H₁ (tanh)</text>
+
+    <!-- Hidden Layer 2 -->
+    <circle cx="185" cy="50" r="4.5" class="net-node-hid" />
+    <circle cx="185" cy="80" r="4.5" class="net-node-hid" />
+    <circle cx="185" cy="105" r="4.5" class="net-node-hid" />
+    <text x="185" y="38" fill="#bc8cff" font-size="8" font-weight="600" text-anchor="middle" class="mono">H₂ (tanh)</text>
+
+    <!-- Output Layer N(x) -->
+    <circle cx="250" cy="75" r="5.5" class="net-node-out" />
+    <text x="250" y="62" fill="#f0883e" font-size="9" font-weight="700" text-anchor="middle" class="mono">N(x)</text>
+
+    <!-- Bottom Specs -->
+    <text x="12" y="138" fill="#6e7681" font-size="8" class="mono">Trial Solution: Ψ_t(x) = y₀ + x · N(x, p) [Exact BC Enforced]</text>
+  </g>
+
+  <!-- Vertical Divider -->
+  <line x1="330" y1="25" x2="330" y2="168" stroke="#30363d" stroke-width="1" stroke-dasharray="3 4" stroke-opacity="0.6" />
+
+  <!-- RIGHT VISUALIZER: Analytical Solution Convergence & Residual Loss HUD -->
+  <g transform="translate(355, 48)">
+    <text x="0" y="8" fill="#8b949e" font-size="10" font-weight="600" class="mono">PYTORCH AUTOGRAD LOSS MINIMIZATION &amp; SOLUTION CONVERGENCE</text>
+
+    <!-- Mini Chart Axis -->
+    <line x1="20" y1="120" x2="280" y2="120" stroke="#30363d" stroke-width="1" />
+    <line x1="20" y1="20" x2="20" y2="120" stroke="#30363d" stroke-width="1" />
+    <text x="282" y="123" fill="#6e7681" font-size="8" class="mono">x</text>
+    <text x="12" y="18" fill="#6e7681" font-size="8" class="mono">Ψ(x)</text>
+
+    <!-- Analytical Exact Target Solution (Dotted White) -->
+    <path d="M20,100 Q75,30 145,75 T270,45" fill="none" stroke="#f0f6fc" stroke-width="1.5" stroke-dasharray="3 4" stroke-opacity="0.75" />
+    <text x="235" y="38" fill="#f0f6fc" font-size="7.5" class="mono">y_exact(x)</text>
+
+    <!-- Converging Neural Trial Curve -->
+    <path class="ode-trial-curve" d="M20,100 Q80,20 150,90 T270,75" fill="none" stroke-width="2.5" />
+
+    <!-- Metric HUD Box 1: PyTorch Autograd Engine -->
+    <g transform="translate(305, 14)">
+      <rect x="0" y="0" width="205" height="48" rx="6" fill="rgba(25, 17, 30, 0.85)" stroke="#30363d" stroke-width="0.9" />
+      <text x="12" y="16" fill="#8b949e" font-size="8.5" class="mono">PyTorch Automatic Diff</text>
+      <text x="12" y="36" fill="#bc8cff" font-size="11" font-weight="700" class="mono">dΨ/dx via autograd</text>
+      <rect x="145" y="10" width="50" height="16" rx="4" fill="rgba(210, 168, 255, 0.15)" stroke="#bc8cff" stroke-width="0.6" />
+      <text x="170" y="21" fill="#d2a8ff" font-size="8" font-weight="600" text-anchor="middle" class="mono">EXACT</text>
+    </g>
+
+    <!-- Metric HUD Box 2: Loss Decay Meter -->
+    <g transform="translate(305, 68)">
+      <rect x="0" y="0" width="205" height="48" rx="6" fill="rgba(25, 17, 30, 0.85)" stroke="#30363d" stroke-width="0.9" />
+      <text x="12" y="16" fill="#8b949e" font-size="8.5" class="mono">ODE Residual Loss ||dΨ/dx - f||²</text>
+      <!-- Progress Bar Track -->
+      <rect x="12" y="24" width="125" height="8" rx="4" fill="#21262d" />
+      <rect x="12" y="24" width="14" height="8" rx="4" class="loss-gauge" />
+      <text x="145" y="32" fill="#3fb950" font-size="9" font-weight="700" class="mono">1.2 × 10⁻⁶</text>
+    </g>
+
+    <!-- Bottom Specs Ribbon -->
+    <text x="20" y="138" fill="#8b949e" font-size="8.5" class="mono">Lagaris et al. (1998) • Linear, Non-linear &amp; Coupled System ODEs</text>
+  </g>
+</svg>
