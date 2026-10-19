@@ -38,6 +38,13 @@ Major contributions to open-source quantitative finance and algorithmic trading 
 - Developed collinearity diagnostics (VIF, condition number, ENF) and cross-sectional Rank IC evaluation.
 - *Tech Stack*: Python, Numerical Linear Algebra, Matrix Factorization, SVD, QR Decomposition, Pytest
 
+### [OptiAlpha](https://github.com/huuan26/OptiAlpha)
+*Convex regularized alpha combination and dynamic multi-factor allocation engine.*  
+- Formulated convex regularized objective balancing IC maximization, factor portfolio risk, and $L_1$ turnover penalties solved via accelerated proximal gradient (FISTA).
+- Implemented Ledoit–Wolf analytical covariance shrinkage and Higham nearest symmetric positive-definite (SPD) projection.
+- Integrated online exponentiated gradient adaptive weighting and Meucci Effective Number of Alphas (ENF) risk attribution.
+- *Tech Stack*: Python, Convex Optimization, FISTA, Covariance Shrinkage, Factor Allocation, Online Learning, Pytest
+
 ### [ANN-ODE-Solver](https://github.com/huuan26/ANN-ODE-Solver)
 *Neural network-based differential equation solver in PyTorch.*  
 - Built neural network architectures to solve linear, non-linear, and coupled ODE systems based on the Lagaris et al. framework.
