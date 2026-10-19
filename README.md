@@ -19,9 +19,9 @@
 
 ### 2. [QuantDinger](https://github.com/OpenByteInc/QuantDinger) (Open-Source Contributor)
 *Open-source quantitative trading and strategy research platform.*  
-- **Factor Warmup Alignment** ([PR #294](https://github.com/OpenByteInc/QuantDinger/pull/294)): Standardized lookback warmup requirements across technical indicators (EMA, HMA, TEMA, etc.) to prevent data gaps during factor evaluation.
-- **Dynamic Resolution & Testing**: Implemented parameter-aware warmup resolution and added test suites to ensure reliable backtesting data feeds.
-- *Tech Stack*: Python, Alpha Factors, Technical Indicators, Automated Backtesting, Pytest
+- **Multi-Timeframe Duration & Metric Annualization** ([PR #298](https://github.com/OpenByteInc/QuantDinger/pull/298)): Aligned monthly timeframe duration (2,592,000 s), annualization scaling factors ($N = 12.0$ for Sharpe, Sortino, volatility), and driving frequency hierarchy across Strategy API V2, decoupling execution subscriptions from frequency duration tables.
+- **Factor Warmup Alignment** ([PR #294](https://github.com/OpenByteInc/QuantDinger/pull/294)): Standardized lookback warmup requirements across technical indicators (EMA, HMA, TEMA, etc.) with parameter-aware dynamic resolution to ensure reliable backtesting feeds and factor evaluation.
+- *Tech Stack*: Python, Quantitative Backtesting, Strategy API V2, Alpha Factors, Technical Indicators, Pytest
 
 ### 3. [ANN-ODE-Solver](https://github.com/huuan26/ANN-ODE-Solver)
 *Neural network-based differential equation solver in PyTorch.*  
