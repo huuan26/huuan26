@@ -29,6 +29,13 @@ Major contributions to open-source quantitative finance and algorithmic trading 
 
 ## Featured Personal Projects
 
+### [alpha-orthogonal](https://github.com/huuan26/alpha-orthogonal)
+*Symmetric factor orthogonalization and cross-sectional risk neutralization framework.*  
+- Implemented Löwdin symmetric orthogonalization using SVD to eliminate cross-factor collinearity while minimizing signal distortion.
+- Formulated Frisch–Waugh–Lovell QR projection for dynamic sector and market risk exposure stripping.
+- Developed collinearity diagnostics (VIF, condition number, ENF) and cross-sectional Rank IC evaluation.
+- *Tech Stack*: Python, Numerical Linear Algebra, Matrix Factorization, SVD, QR Decomposition, Pytest
+
 ### [ANN-ODE-Solver](https://github.com/huuan26/ANN-ODE-Solver)
 *Neural network-based differential equation solver in PyTorch.*  
 - Built neural network architectures to solve linear, non-linear, and coupled ODE systems based on the Lagaris et al. framework.
