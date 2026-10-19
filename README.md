@@ -29,7 +29,7 @@ Major contributions to open-source quantitative finance and algorithmic trading 
 
 ## Featured Personal Projects
 
-### [alpha-orthogonal](https://github.com/huuan26/alpha-orthogonal)
+### [OrthoQuant](https://github.com/huuan26/OrthoQuant)
 *Symmetric factor orthogonalization and cross-sectional risk neutralization framework.*  
 - Implemented Löwdin symmetric orthogonalization using SVD to eliminate cross-factor collinearity while minimizing signal distortion.
 - Formulated Frisch–Waugh–Lovell QR projection for dynamic sector and market risk exposure stripping.
