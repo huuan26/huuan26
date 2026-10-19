@@ -125,19 +125,19 @@
     .term-line-3 { animation: cycleLine3 12s ease-in-out infinite; }
 
     @keyframes cycleLine1 {
-      0%, 29% { opacity: 1; transform: translateY(0); }
-      33%, 96% { opacity: 0; transform: translateY(-5px); }
+      0%, 28% { opacity: 1; transform: translateY(0); }
+      33%, 95% { opacity: 0; transform: translateY(-3px); }
       100% { opacity: 1; transform: translateY(0); }
     }
     @keyframes cycleLine2 {
-      0%, 29% { opacity: 0; transform: translateY(5px); }
-      33%, 62% { opacity: 1; transform: translateY(0); }
-      66%, 100% { opacity: 0; transform: translateY(-5px); }
+      0%, 28% { opacity: 0; transform: translateY(3px); }
+      33%, 61% { opacity: 1; transform: translateY(0); }
+      66%, 100% { opacity: 0; transform: translateY(-3px); }
     }
     @keyframes cycleLine3 {
-      0%, 62% { opacity: 0; transform: translateY(5px); }
+      0%, 61% { opacity: 0; transform: translateY(3px); }
       66%, 95% { opacity: 1; transform: translateY(0); }
-      100% { opacity: 0; transform: translateY(-5px); }
+      100% { opacity: 0; transform: translateY(-3px); }
     }
 
     /* Pulse Live Dot */
@@ -265,9 +265,9 @@
     </text>
 
     <!-- Interactive Terminal CLI Box -->
-    <g transform="translate(0, 122)">
+    <g transform="translate(0, 118)">
       <!-- Terminal Background Window -->
-      <rect x="0" y="0" width="530" height="74" rx="8" fill="rgba(13, 17, 23, 0.85)" stroke="#30363d" stroke-width="1.2" />
+      <rect x="0" y="0" width="530" height="76" rx="8" fill="rgba(13, 17, 23, 0.85)" stroke="#30363d" stroke-width="1.2" />
       
       <!-- Terminal Header Bar -->
       <rect x="0" y="0" width="530" height="22" rx="8" fill="rgba(22, 27, 34, 0.85)" />
@@ -280,38 +280,41 @@
         huuan26@quant-research: ~/models
       </text>
 
-      <!-- Terminal Body Content (Crossfading Dynamic Code Execution) -->
+      <!-- Terminal Body Content (Prompt & Code lines cleanly aligned) -->
       <!-- Prompt Symbol -->
       <text x="14" y="44" fill="#58a6ff" font-size="11.5" font-weight="bold" class="mono">&gt;</text>
 
-      <!-- Cycle Line 1: OrthoQuant Engine -->
-      <g class="term-line-1" transform="translate(28, 44)">
-        <text fill="#f0f6fc" font-size="11" class="mono">
-          <tspan fill="#79c0ff">orthoquant</tspan>.<tspan fill="#d2a8ff">lowdin_orthogonalize</tspan>(F) <tspan fill="#8b949e"># VIF: ∞ → 1.000</tspan>
-        </text>
-        <text x="0" y="18" fill="#3fb950" font-size="10" class="mono">
-          ✔ Thin SVD polar decomposition: F_tilde = U·Vᵀ (optimal)
-        </text>
-      </g>
+      <!-- Static positioning wrapper: isolates transform coordinates from CSS keyframes -->
+      <g transform="translate(28, 44)">
+        <!-- Cycle Line 1: OrthoQuant Engine -->
+        <g class="term-line-1">
+          <text fill="#f0f6fc" font-size="11" class="mono">
+            <tspan fill="#79c0ff">orthoquant</tspan>.<tspan fill="#d2a8ff">lowdin_orthogonalize</tspan>(F) <tspan fill="#8b949e"># VIF: ∞ → 1.000</tspan>
+          </text>
+          <text x="0" y="18" fill="#3fb950" font-size="10" class="mono">
+            ✔ Thin SVD polar decomposition: F_tilde = U·Vᵀ (optimal)
+          </text>
+        </g>
 
-      <!-- Cycle Line 2: FinancePy Contributions -->
-      <g class="term-line-2" transform="translate(28, 44)">
-        <text fill="#f0f6fc" font-size="11" class="mono">
-          <tspan fill="#79c0ff">financepy</tspan>.<tspan fill="#d2a8ff">curves</tspan>.<tspan fill="#56d364">CDSCurve</tspan>(df, survival_prob)
-        </text>
-        <text x="0" y="18" fill="#3fb950" font-size="10" class="mono">
-          ✔ PR #408 merged: aligned day-count &amp; list[Date] vectorization
-        </text>
-      </g>
+        <!-- Cycle Line 2: FinancePy Contributions -->
+        <g class="term-line-2">
+          <text fill="#f0f6fc" font-size="11" class="mono">
+            <tspan fill="#79c0ff">financepy</tspan>.<tspan fill="#d2a8ff">curves</tspan>.<tspan fill="#56d364">CDSCurve</tspan>(df, survival_prob)
+          </text>
+          <text x="0" y="18" fill="#3fb950" font-size="10" class="mono">
+            ✔ PR #408 merged: aligned day-count &amp; list[Date] vectorization
+          </text>
+        </g>
 
-      <!-- Cycle Line 3: Cliquet & BDT Pricing -->
-      <g class="term-line-3" transform="translate(28, 44)">
-        <text fill="#f0f6fc" font-size="11" class="mono">
-          <tspan fill="#79c0ff">pricer</tspan>.<tspan fill="#d2a8ff">simulate</tspan>(bdt_tree, cliquet_cap_floor)
-        </text>
-        <text x="0" y="18" fill="#bc8cff" font-size="10" class="mono">
-          ✔ PR #406 (Shifted BDT) &amp; PR #404 (Cliquet Valuation) active
-        </text>
+        <!-- Cycle Line 3: Cliquet & BDT Pricing -->
+        <g class="term-line-3">
+          <text fill="#f0f6fc" font-size="11" class="mono">
+            <tspan fill="#79c0ff">pricer</tspan>.<tspan fill="#d2a8ff">simulate</tspan>(bdt_tree, cliquet_cap_floor)
+          </text>
+          <text x="0" y="18" fill="#bc8cff" font-size="10" class="mono">
+            ✔ PR #406 (Shifted BDT) &amp; PR #404 (Cliquet Valuation) active
+          </text>
+        </g>
       </g>
     </g>
 
