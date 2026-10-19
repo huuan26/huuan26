@@ -1,9 +1,10 @@
 <!-- GitHub Profile README -->
 
-<h1 align="center">Phan Bùi Hữu Ân</h1>
+<p align="center">
+  <img src="assets/hero_banner.svg" alt="Phan Bùi Hữu Ân - Quantitative Research & Numerical Analysis" width="100%" />
+</p>
 
 <p align="center">
-  <b>Quantitative Researcher | Data Scientist</b><br>
   <i>Bridging rigorous numerical mathematics with systematic quantitative trading and deep learning.</i>
 </p>
 
