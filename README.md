@@ -15,14 +15,14 @@ Major contributions to open-source quantitative finance and algorithmic trading 
 
 ### [FinancePy](https://github.com/domokane/FinancePy)
 *Python library for valuation and risk management of financial derivatives.*  
-- **Shifted Black–Derman–Toy Model** ([PR #406](https://github.com/domokane/FinancePy/pull/406)): Extended BDT short-rate tree dynamics to support negative interest rates and updated lattice-based derivative pricing.
-- **Equity Cliquet Option Valuation** ([PR #404](https://github.com/domokane/FinancePy/pull/404)): Implemented closed-form analytical formulas and Monte Carlo simulation for return cliquet options with local and global caps/floors.
-- *Tech Stack*: Python, Quantitative Finance, Short-Rate Trees, Monte Carlo
+- **Shifted Black–Derman–Toy Model** [![PR #406 - Merged](https://img.shields.io/badge/PR_%23406-Merged-8250df?style=flat-square)](https://github.com/domokane/FinancePy/pull/406): Extended BDT short-rate tree dynamics to support negative interest rates and updated lattice-based derivative pricing under negative yield environments.
+- **Equity Cliquet Option Valuation** [![PR #404 - Merged](https://img.shields.io/badge/PR_%23404-Merged-8250df?style=flat-square)](https://github.com/domokane/FinancePy/pull/404): Implemented closed-form analytical pricing formulas and Monte Carlo simulation for return cliquet options with local and global caps/floors, validated with regression unit tests.
+- *Tech Stack*: Python, Quantitative Finance, Analytical Pricing, Monte Carlo, Short-Rate Trees
 
 ### [QuantDinger](https://github.com/OpenByteInc/QuantDinger)
 *Open-source quantitative trading and strategy research platform.*  
-- **Multi-Timeframe Duration & Metric Annualization** ([PR #298](https://github.com/OpenByteInc/QuantDinger/pull/298)): Aligned monthly timeframe duration (2,592,000 s), annualization scaling factors ($N = 12.0$ for Sharpe, Sortino, volatility), and driving frequency hierarchy across Strategy API V2, decoupling execution subscriptions from frequency duration tables.
-- **Factor Warmup Alignment** ([PR #294](https://github.com/OpenByteInc/QuantDinger/pull/294)): Standardized lookback warmup requirements across technical indicators (EMA, HMA, TEMA, etc.) with parameter-aware dynamic resolution to ensure reliable backtesting feeds and factor evaluation.
+- **Multi-Timeframe Duration & Metric Annualization** [![PR #298 - Merged](https://img.shields.io/badge/PR_%23298-Merged-8250df?style=flat-square)](https://github.com/OpenByteInc/QuantDinger/pull/298): Aligned monthly timeframe duration (2,592,000 s), annualization scaling factors ($N = 12.0$ for Sharpe, Sortino, volatility), and driving frequency hierarchy across Strategy API V2, validated with comprehensive test suites.
+- **Factor Warmup Alignment** [![PR #294 - Merged](https://img.shields.io/badge/PR_%23294-Merged-8250df?style=flat-square)](https://github.com/OpenByteInc/QuantDinger/pull/294): Standardized lookback warmup requirements across technical indicators (EMA, HMA, TEMA, etc.) with parameter-aware dynamic resolution and unit tests to ensure reliable backtesting data feeds and factor evaluation.
 - *Tech Stack*: Python, Quantitative Backtesting, Strategy API V2, Alpha Factors, Technical Indicators, Pytest
 
 ---
