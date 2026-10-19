@@ -7,48 +7,30 @@
   <i>Bridging rigorous numerical mathematics with systematic quantitative trading and deep learning.</i>
 </p>
 
-
 ---
-
-
 
 ## Featured Research & Open-Source Projects
 
-### 1. FinancePy (Open-Source Contributor)
-**Valuation & Risk Management of Financial Derivatives in Python**  
-*Upstream Repository*: [domokane/FinancePy](https://github.com/domokane/FinancePy) &bull; *Merged PRs*: [#404](https://github.com/domokane/FinancePy/pull/404), [#406](https://github.com/domokane/FinancePy/pull/406)  
-*Tech Stack*: Python, Quantitative Finance, Analytical Pricing, Short-Rate Trees, Monte Carlo  
-- **Shifted Black–Derman–Toy Short-Rate Tree ([PR #406](https://github.com/domokane/FinancePy/pull/406))**:
-  - Extended `BDTTree` with shifted lognormal short-rate dynamics $d\ln(r_t + s) = \theta(t)\,dt + \sigma\,dW_t$ ($r_t + s > 0$) to support lattice calibration and fixed-income derivative valuation under negative interest rates (resolving Issue #20).
-  - Propagated shifted states $x_{m,i} = r_{m,i} + s$ for root-finding and Arrow–Debreu state price calibration while preserving true short-rate discounting across backward-induction pricers (`bond_option`, `bermudan_swaption`, `callable_puttable_bond_tree`), validated via European bond option put–call parity and zero-volatility shift invariance.
-- **Equity Cliquet Option Valuation ([PR #404](https://github.com/domokane/FinancePy/pull/404))**:
-  - Extended `EquityCliquetOption` to support periodic local caps/floors and maturity global caps/floors (resolving Issue #221).
-  - Derived and implemented analytical closed-form pricing for return cliquets via forward-start vanilla option decomposition under the risk-neutral measure.
-  - Implemented multi-period Monte Carlo pricing with exact lognormal state transitions, validated against analytical Black-Scholes spreads with error $< 10^{-12}$.
+### 1. [FinancePy](https://github.com/domokane/FinancePy) (Open-Source Contributor)
+*Python library for valuation and risk management of financial derivatives.*  
+- **Shifted Black–Derman–Toy Model** ([PR #406](https://github.com/domokane/FinancePy/pull/406)): Extended BDT short-rate tree dynamics to support negative interest rates and updated lattice-based derivative pricing.
+- **Equity Cliquet Option Valuation** ([PR #404](https://github.com/domokane/FinancePy/pull/404)): Implemented closed-form analytical formulas and Monte Carlo simulation for return cliquet options with local and global caps/floors.
+- *Tech Stack*: Python, Quantitative Finance, Short-Rate Trees, Monte Carlo
 
-### 2. QuantDinger (Open-Source Contributor)
-**Open-Source AI Trading OS, Strategy Research & Factor Computation**  
-*Upstream Repository*: [OpenByteInc/QuantDinger](https://github.com/OpenByteInc/QuantDinger) &bull; *Merged PRs*: [#294](https://github.com/OpenByteInc/QuantDinger/pull/294)  
-*Tech Stack*: Python, Quantitative Finance, Alpha Factors, Technical Indicators, Automated Backtesting, Pytest  
-- **Technical & Research Factor Warmup Calculation Alignment ([PR #294](https://github.com/OpenByteInc/QuantDinger/pull/294))**:
-  - Resolved lookback warmup bar under-allocation in `_technical_warmup` (`registry.py`) and `FactorResearchEngine.warmup_bars`, eliminating runtime `factor.insufficientHistory` errors during factor evaluation.
-  - Formulated and standardized exact mathematical history requirements across factor families:
-    - First-difference & return factors: $W_{\mathrm{diff}}(p) = p + 1$
-    - Zero-Lag EMA: $W_{\mathrm{zlema}}(p) = p + \lfloor (p - 1) / 2 \rfloor$
-    - Multi-stage indicators: TEMA ($3p$), TRIX ($3p + 1$), DEMA / ADX ($2p$), and HMA ($p + \lfloor\sqrt{p}\rfloor$)
-  - Implemented dynamic parameter-aware warmup resolution via `factor_warmup_bars(factor_id, params)` and added comprehensive test suites guaranteeing zero regressions across all registered indicators and shorthand research factors (`momentum_<N>`, `volatility_<N>`, `reversal`).
+### 2. [QuantDinger](https://github.com/OpenByteInc/QuantDinger) (Open-Source Contributor)
+*Open-source quantitative trading and strategy research platform.*  
+- **Factor Warmup Alignment** ([PR #294](https://github.com/OpenByteInc/QuantDinger/pull/294)): Standardized lookback warmup requirements across technical indicators (EMA, HMA, TEMA, etc.) to prevent data gaps during factor evaluation.
+- **Dynamic Resolution & Testing**: Implemented parameter-aware warmup resolution and added test suites to ensure reliable backtesting data feeds.
+- *Tech Stack*: Python, Alpha Factors, Technical Indicators, Automated Backtesting, Pytest
 
-### 3. ANN-ODE-Solver
-**Artificial Neural Networks for Differential Equations in PyTorch**  
-*Repository*: [huuan26/ANN-ODE-Solver](https://github.com/huuan26/ANN-ODE-Solver)  
-*Tech Stack*: Python, PyTorch, NumPy, Matplotlib  
-- Implements deep feed-forward neural network solvers for linear, non-linear, oscillatory, second-order, and coupled ODE systems based on the foundational framework by Lagaris et al. (1998).
-- Utilizes hard-constrained trial solution formulations that strictly satisfy initial and boundary conditions analytically, eliminating the need for boundary penalty tuning.
-- Employs exact PyTorch computational graph automatic differentiation (`torch.autograd`), achieving over 100x lower error compared to classical Forward Euler integration.
-
+### 3. [ANN-ODE-Solver](https://github.com/huuan26/ANN-ODE-Solver)
+*Neural network-based differential equation solver in PyTorch.*  
+- Built neural network architectures to solve linear, non-linear, and coupled ODE systems based on the Lagaris et al. framework.
+- Formulated trial solutions that analytically satisfy initial and boundary conditions.
+- Utilized PyTorch automatic differentiation (`autograd`) for gradient computation and optimization.
+- *Tech Stack*: Python, PyTorch, NumPy, Numerical Analysis
 
 ---
-
 
 ## Education
 
