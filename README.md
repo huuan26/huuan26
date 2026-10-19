@@ -33,7 +33,7 @@ Major contributions to open-source quantitative finance and algorithmic trading 
 
 ### [OrthoQuant](https://github.com/huuan26/OrthoQuant)
 *Symmetric factor orthogonalization and cross-sectional risk neutralization framework.*  
-- Implemented Löwdin symmetric orthogonalization using SVD to eliminate cross-factor collinearity while minimizing signal distortion.
+- Implemented Lowdin symmetric orthogonalization using SVD to eliminate cross-factor collinearity while minimizing signal distortion.
 - Formulated Frisch–Waugh–Lovell QR projection for dynamic sector and market risk exposure stripping.
 - Developed collinearity diagnostics (VIF, condition number, ENF) and cross-sectional Rank IC evaluation.
 - *Tech Stack*: Python, Numerical Linear Algebra, Matrix Factorization, SVD, QR Decomposition, Pytest

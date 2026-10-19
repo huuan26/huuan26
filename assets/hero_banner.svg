@@ -201,7 +201,7 @@
     <text x="304" y="154" fill="#8b949e" font-size="10" text-anchor="start" class="mono">e₁</text>
     <text x="88" y="206" fill="#8b949e" font-size="10" text-anchor="end" class="mono">e₃</text>
 
-    <!-- Right Angle Orthogonality Indicator Symbol (Löwdin Basis) -->
+    <!-- Right Angle Orthogonality Indicator Symbol (Lowdin Basis) -->
     <path class="angle-marker" d="M197,150 L197,138 L185,138" fill="none" stroke="#3fb950" stroke-width="1.75" />
 
     <!-- Static Fixed Factor Vector f2 (Vertical Basis, Emerald) -->
@@ -212,7 +212,7 @@
     <line x1="185" y1="150" x2="115" y2="188" stroke="#bc8cff" stroke-width="2.2" marker-end="url(#arrowPurple)" />
     <text x="105" y="186" fill="#d2a8ff" font-size="11" font-weight="bold" text-anchor="end" class="mono">q₃</text>
 
-    <!-- Dynamic Rotating Factor Vector f1 (Löwdin Polar SVD Rotation: Collinear -> Orthonormal) -->
+    <!-- Dynamic Rotating Factor Vector f1 (Lowdin Polar SVD Rotation: Collinear -> Orthonormal) -->
     <g class="orthogonalizing-vector">
       <line x1="185" y1="150" x2="275" y2="150" stroke="#58a6ff" stroke-width="2.6" marker-end="url(#arrowCyan)" />
       <!-- Projection trace drop line -->
@@ -235,7 +235,7 @@
       <g class="state-orthonormal">
         <rect x="-82" y="-12" width="164" height="20" rx="10" fill="rgba(63, 185, 80, 0.12)" stroke="#3fb950" stroke-width="1" stroke-opacity="0.6" />
         <circle cx="-68" cy="-2" r="3" fill="#3fb950" />
-        <text x="-56" y="2" fill="#56d364" font-size="9.5" font-weight="600" class="mono">LÖWDIN: κ₂=1.000 (I_K)</text>
+        <text x="-56" y="2" fill="#56d364" font-size="9.5" font-weight="600" class="mono">LOWDIN: κ₂=1.000 (I_K)</text>
       </g>
     </g>
   </g>
