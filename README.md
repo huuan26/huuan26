@@ -15,9 +15,10 @@ Major contributions to open-source quantitative finance and algorithmic trading 
 
 ### [FinancePy](https://github.com/domokane/FinancePy)
 *Python library for valuation and risk management of financial derivatives.*  
+- **CDSCurve Vectorization & Day Count Alignment** [![PR #408 - Merged](https://img.shields.io/badge/PR_%23408-Merged-8250df?style=flat-square)](https://github.com/domokane/FinancePy/pull/408): Aligned day-count convention handling in `CDSCurve.df` with underlying discount curves (fixing hardcoded ACT/365 bypass), implemented seamless vectorization for `Date` lists across discount factors and survival probabilities (`times_from_dates`), and re-enabled comprehensive regression suites.
 - **Shifted Black–Derman–Toy Model** [![PR #406 - Merged](https://img.shields.io/badge/PR_%23406-Merged-8250df?style=flat-square)](https://github.com/domokane/FinancePy/pull/406): Extended BDT short-rate tree dynamics to support negative interest rates and updated lattice-based derivative pricing under negative yield environments.
 - **Equity Cliquet Option Valuation** [![PR #404 - Merged](https://img.shields.io/badge/PR_%23404-Merged-8250df?style=flat-square)](https://github.com/domokane/FinancePy/pull/404): Implemented closed-form analytical pricing formulas and Monte Carlo simulation for return cliquet options with local and global caps/floors, validated with regression unit tests.
-- *Tech Stack*: Python, Quantitative Finance, Analytical Pricing, Monte Carlo, Short-Rate Trees
+- *Tech Stack*: Python, Quantitative Finance, Analytical Pricing, Monte Carlo, Short-Rate Trees, Credit Default Swaps (CDS)
 
 ### [QuantDinger](https://github.com/OpenByteInc/QuantDinger)
 *Open-source quantitative trading and strategy research platform.*  
