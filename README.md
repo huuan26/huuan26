@@ -46,18 +46,3 @@ Major contributions to open-source quantitative finance and algorithmic trading 
 - *Tech Stack*: Python, PyTorch, NumPy, Numerical Analysis
 
 ---
-
-## Education
-
-- **Bachelor of Mathematics (Talent Program), Specialization in Numerical Analysis**  
-  VNU-HCM University of Science (Đại học Khoa học Tự nhiên - ĐHQG TP.HCM)  
-  *Focus*: Numerical Methods, Differential Equations, Optimization, Probability & Mathematical Statistics.
-
----
-
-## Contact & Links
-
-- **Email**: [phanbuihuuan261103@gmail.com](mailto:phanbuihuuan261103@gmail.com)
-- **LinkedIn**: [linkedin.com/in/an-phan-6b6365350](https://www.linkedin.com/in/an-phan-6b6365350/)
-- **GitHub**: [github.com/huuan26](https://github.com/huuan26)
-- **Location**: Ho Chi Minh City, Vietnam
