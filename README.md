@@ -35,8 +35,8 @@ Bridging rigorous numerical mathematics with systematic quantitative trading and
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
       </p>
       <p>
-        <a href="https://github.com/huuan26/polars-anta/stargazers"><img src="https://img.shields.io/github/stars/huuan26/polars-anta?style=flat-square&label=%E2%AD%90%20stars&color=e3b341&labelColor=161b22" alt="Stars" /></a>
-        <a href="https://github.com/huuan26/polars-anta/network/members"><img src="https://img.shields.io/github/forks/huuan26/polars-anta?style=flat-square&label=%F0%9F%8D%B4%20forks&color=58a6ff&labelColor=161b22" alt="Forks" /></a>
+        <a href="https://github.com/huuan26/polars-anta/stargazers"><img src="https://img.shields.io/github/stars/huuan26/polars-anta?style=flat-square&logo=github&label=Stars&color=e3b341&labelColor=161b22" alt="Stars" /></a>
+        <a href="https://github.com/huuan26/polars-anta/network/members"><img src="https://img.shields.io/github/forks/huuan26/polars-anta?style=flat-square&logo=github&label=Forks&color=58a6ff&labelColor=161b22" alt="Forks" /></a>
       </p>
     </td>
     <td width="33.3%" valign="top">
@@ -48,8 +48,8 @@ Bridging rigorous numerical mathematics with systematic quantitative trading and
         <img src="https://img.shields.io/badge/Linear%20Algebra-008080?style=flat-square" alt="Linear Algebra" />
       </p>
       <p>
-        <a href="https://github.com/huuan26/OrthoQuant/stargazers"><img src="https://img.shields.io/github/stars/huuan26/OrthoQuant?style=flat-square&label=%E2%AD%90%20stars&color=e3b341&labelColor=161b22" alt="Stars" /></a>
-        <a href="https://github.com/huuan26/OrthoQuant/network/members"><img src="https://img.shields.io/github/forks/huuan26/OrthoQuant?style=flat-square&label=%F0%9F%8D%B4%20forks&color=58a6ff&labelColor=161b22" alt="Forks" /></a>
+        <a href="https://github.com/huuan26/OrthoQuant/stargazers"><img src="https://img.shields.io/github/stars/huuan26/OrthoQuant?style=flat-square&logo=github&label=Stars&color=e3b341&labelColor=161b22" alt="Stars" /></a>
+        <a href="https://github.com/huuan26/OrthoQuant/network/members"><img src="https://img.shields.io/github/forks/huuan26/OrthoQuant?style=flat-square&logo=github&label=Forks&color=58a6ff&labelColor=161b22" alt="Forks" /></a>
       </p>
     </td>
     <td width="33.3%" valign="top">
@@ -61,8 +61,8 @@ Bridging rigorous numerical mathematics with systematic quantitative trading and
         <img src="https://img.shields.io/badge/FISTA-D84315?style=flat-square" alt="FISTA" />
       </p>
       <p>
-        <a href="https://github.com/huuan26/OptiAlpha/stargazers"><img src="https://img.shields.io/github/stars/huuan26/OptiAlpha?style=flat-square&label=%E2%AD%90%20stars&color=e3b341&labelColor=161b22" alt="Stars" /></a>
-        <a href="https://github.com/huuan26/OptiAlpha/network/members"><img src="https://img.shields.io/github/forks/huuan26/OptiAlpha?style=flat-square&label=%F0%9F%8D%B4%20forks&color=58a6ff&labelColor=161b22" alt="Forks" /></a>
+        <a href="https://github.com/huuan26/OptiAlpha/stargazers"><img src="https://img.shields.io/github/stars/huuan26/OptiAlpha?style=flat-square&logo=github&label=Stars&color=e3b341&labelColor=161b22" alt="Stars" /></a>
+        <a href="https://github.com/huuan26/OptiAlpha/network/members"><img src="https://img.shields.io/github/forks/huuan26/OptiAlpha?style=flat-square&logo=github&label=Forks&color=58a6ff&labelColor=161b22" alt="Forks" /></a>
       </p>
     </td>
   </tr>
