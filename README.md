@@ -1,80 +1,121 @@
-<!-- GitHub Profile README -->
+# 👋 Hi there, I'm An Phan!
+**Quantitative Researcher & Computational Finance Engineer** 🟠 🔵 🟢
 
-<p align="center">
-  <img src="assets/hero_banner.svg" alt="Phan Bùi Hữu Ân - Quantitative Research & Numerical Analysis" width="100%" />
+Bridging rigorous numerical mathematics with systematic quantitative trading and high-performance computing.
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/Polars-CD792C?style=for-the-badge&logo=polars&logoColor=white" alt="Polars" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
 </p>
-
-<p align="center">
-  <i>Bridging rigorous numerical mathematics with systematic quantitative trading and deep learning.</i>
+<p align="left">
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
+  <img src="https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white" alt="SciPy" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
 </p>
 
 ---
 
-## Open-Source Contributions
+### 🚀 Featured Projects
 
-Major contributions to open-source quantitative finance and algorithmic trading ecosystems:
+<table width="100%">
+  <tr>
+    <td width="33.3%" valign="top">
+      <h4><a href="https://github.com/huuan26/polars-anta">⚡ polars-anta ↗</a></h4>
+      <p>High-performance Technical Analysis & Alpha factor library powered natively by Polars Expressions. Zero-C runtime, 116x faster rolling OLS.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Polars-CD792C?style=flat-square&logo=polars&logoColor=white" alt="Polars" />
+        <img src="https://img.shields.io/badge/Rust-DEA584?style=flat-square&logo=rust&logoColor=black" alt="Rust" />
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+      </p>
+      <p>⭐ 6 &nbsp;&bull;&nbsp; 🍴 0</p>
+    </td>
+    <td width="33.3%" valign="top">
+      <h4><a href="https://github.com/huuan26/OrthoQuant">📐 OrthoQuant ↗</a></h4>
+      <p>Symmetric factor orthogonalization and cross-sectional risk neutralization using Lowdin SVD and Frisch–Waugh–Lovell QR projection.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+        <img src="https://img.shields.io/badge/SVD-7B2CBF?style=flat-square" alt="SVD" />
+        <img src="https://img.shields.io/badge/Linear%20Algebra-008080?style=flat-square" alt="Linear Algebra" />
+      </p>
+      <p>⭐ 2 &nbsp;&bull;&nbsp; 🍴 0</p>
+    </td>
+    <td width="33.3%" valign="top">
+      <h4><a href="https://github.com/huuan26/OptiAlpha">🎯 OptiAlpha ↗</a></h4>
+      <p>Convex regularized alpha combination & dynamic factor portfolio allocation solved via accelerated proximal gradient (FISTA).</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+        <img src="https://img.shields.io/badge/Convex%20Opt-2E7D32?style=flat-square" alt="Convex Opt" />
+        <img src="https://img.shields.io/badge/FISTA-D84315?style=flat-square" alt="FISTA" />
+      </p>
+      <p>⭐ 2 &nbsp;&bull;&nbsp; 🍴 0</p>
+    </td>
+  </tr>
+</table>
 
-### [FinancePy](https://github.com/domokane/FinancePy)
-*Python library for valuation and risk management of financial derivatives.*  
+---
 
-<p align="center">
-  <img src="assets/financepy_card.svg" alt="FinancePy Quantitative Derivatives Engine" width="100%" />
-</p>
+### 🌐 Open-Source Contributions
 
-- **CDSCurve Vectorization & Day Count Alignment** [![PR #408 - Merged](https://img.shields.io/badge/PR_%23408-Merged-8250df?style=flat-square)](https://github.com/domokane/FinancePy/pull/408): Aligned day-count convention handling in `CDSCurve.df` with underlying discount curves (fixing hardcoded ACT/365 bypass), implemented seamless vectorization for `Date` lists across discount factors and survival probabilities (`times_from_dates`), and re-enabled comprehensive regression suites.
-- **Shifted Black–Derman–Toy Model** [![PR #406 - Merged](https://img.shields.io/badge/PR_%23406-Merged-8250df?style=flat-square)](https://github.com/domokane/FinancePy/pull/406): Extended BDT short-rate tree dynamics to support negative interest rates and updated lattice-based derivative pricing under negative yield environments.
-- **Equity Cliquet Option Valuation** [![PR #404 - Merged](https://img.shields.io/badge/PR_%23404-Merged-8250df?style=flat-square)](https://github.com/domokane/FinancePy/pull/404): Implemented closed-form analytical pricing formulas and Monte Carlo simulation for return cliquet options with local and global caps/floors, validated with regression unit tests.
-- *Tech Stack*: Python, Quantitative Finance, Analytical Pricing, Monte Carlo, Short-Rate Trees, Credit Default Swaps (CDS)
-
-### [QuantDinger](https://github.com/OpenByteInc/QuantDinger)
-*Open-source quantitative trading and strategy research platform.*  
-
-<p align="center">
-  <img src="assets/quantdinger_card.svg" alt="QuantDinger Algo Trading Engine" width="100%" />
-</p>
-
-- **Multi-Timeframe Duration & Metric Annualization** [![PR #298 - Merged](https://img.shields.io/badge/PR_%23298-Merged-8250df?style=flat-square)](https://github.com/OpenByteInc/QuantDinger/pull/298): Aligned monthly timeframe duration (2,592,000 s), annualization scaling factors ($N = 12.0$ for Sharpe, Sortino, volatility), and driving frequency hierarchy across Strategy API V2, validated with comprehensive test suites.
-- **Factor Warmup Alignment** [![PR #294 - Merged](https://img.shields.io/badge/PR_%23294-Merged-8250df?style=flat-square)](https://github.com/OpenByteInc/QuantDinger/pull/294): Standardized lookback warmup requirements across technical indicators (EMA, HMA, TEMA, etc.) with parameter-aware dynamic resolution and unit tests to ensure reliable backtesting data feeds and factor evaluation.
-- *Tech Stack*: Python, Quantitative Backtesting, Strategy API V2, Alpha Factors, Technical Indicators, Pytest
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/domokane/FinancePy">domokane / FinancePy ↗</a></h4>
+      <p><em>Python library for valuation and risk management of financial derivatives.</em></p>
+      <ul>
+        <li><a href="https://github.com/domokane/FinancePy/pull/408"><b>PR #408 (Merged)</b></a>: CDSCurve vectorization & day-count alignment</li>
+        <li><a href="https://github.com/domokane/FinancePy/pull/406"><b>PR #406 (Merged)</b></a>: Shifted Black–Derman–Toy model for negative rates</li>
+        <li><a href="https://github.com/domokane/FinancePy/pull/404"><b>PR #404 (Merged)</b></a>: Equity cliquet option valuation & Monte Carlo</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Quant_Finance-1B365D?style=flat-square" alt="Quant Finance" />
+        <img src="https://img.shields.io/badge/Derivatives-005A9C?style=flat-square" alt="Derivatives" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/OpenByteInc/QuantDinger">OpenByteInc / QuantDinger ↗</a></h4>
+      <p><em>Open-source algorithmic trading and quantitative strategy research framework.</em></p>
+      <ul>
+        <li><a href="https://github.com/OpenByteInc/QuantDinger/pull/298"><b>PR #298 (Merged)</b></a>: Multi-timeframe duration & metric annualization</li>
+        <li><a href="https://github.com/OpenByteInc/QuantDinger/pull/294"><b>PR #294 (Merged)</b></a>: Factor warmup standardization across technical indicators</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Algo_Trading-388E3C?style=flat-square" alt="Algo Trading" />
+        <img src="https://img.shields.io/badge/Backtesting-F57C00?style=flat-square" alt="Backtesting" />
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## Featured Personal Projects
+### 📝 Research Notes & Technical Insights
 
-### [OrthoQuant](https://github.com/huuan26/OrthoQuant)
-*Symmetric factor orthogonalization and cross-sectional risk neutralization framework.*  
+- 📄 **[Decomposing OLS Linear Regression into WMA/SMA for 100x Speedup in Polars](https://github.com/huuan26/polars-anta)** &nbsp;—&nbsp; *Oct 2026*  
+  *Closed-form mathematical refactoring of rolling least-squares into prefix sums and weighted moving averages.*
 
-<p align="center">
-  <img src="assets/orthoquant_card.svg" alt="OrthoQuant Symmetric Orthogonalization" width="100%" />
-</p>
+- 📄 **[Lowdin Symmetric Orthogonalization for Cross-Sectional Alpha Factors](https://github.com/huuan26/OrthoQuant)** &nbsp;—&nbsp; *Sep 2026*  
+  *Eliminating factor multi-collinearity via SVD-based unitary transformation while preserving maximal correlation.*
 
-- Implemented Lowdin symmetric orthogonalization using SVD to eliminate cross-factor collinearity while minimizing signal distortion.
-- Formulated Frisch–Waugh–Lovell QR projection for dynamic sector and market risk exposure stripping.
-- Developed collinearity diagnostics (VIF, condition number, ENF) and cross-sectional Rank IC evaluation.
-- *Tech Stack*: Python, Numerical Linear Algebra, Matrix Factorization, SVD, QR Decomposition, Pytest
-
-### [OptiAlpha](https://github.com/huuan26/OptiAlpha)
-*Convex regularized alpha combination and dynamic multi-factor allocation engine.*  
-
-<p align="center">
-  <img src="assets/optialpha_card.svg" alt="OptiAlpha Convex Alpha Combination" width="100%" />
-</p>
-
-- Formulated convex regularized objective balancing IC maximization, factor portfolio risk, and $L_1$ turnover penalties solved via accelerated proximal gradient (FISTA).
-- Implemented Ledoit–Wolf analytical covariance shrinkage and Higham nearest symmetric positive-definite (SPD) projection.
-- Integrated online exponentiated gradient adaptive weighting and Meucci Effective Number of Alphas (ENF) risk attribution.
-- *Tech Stack*: Python, Convex Optimization, FISTA, Covariance Shrinkage, Factor Allocation, Online Learning, Pytest
-
-### [ANN-ODE-Solver](https://github.com/huuan26/ANN-ODE-Solver)
-*Neural network-based differential equation solver in PyTorch.*  
-
-<p align="center">
-  <img src="assets/ann_ode_card.svg" alt="ANN-ODE-Solver Physics-Informed Neural Network" width="100%" />
-</p>
-
-- Built neural network architectures to solve linear, non-linear, and coupled ODE systems based on the Lagaris et al. framework.
-- Formulated trial solutions that analytically satisfy initial and boundary conditions.
-- Utilized PyTorch automatic differentiation (`autograd`) for gradient computation and optimization.
-- *Tech Stack*: Python, PyTorch, NumPy, Numerical Analysis
+- 📄 **[Shifted Black–Derman–Toy Short-Rate Trees in Negative Yield Environments](https://github.com/domokane/FinancePy/pull/406)** &nbsp;—&nbsp; *Aug 2026*  
+  *Extending log-normal short rate lattice dynamics to negative interest rate regimes with boundary calibrations.*
 
 ---
+
+### 📊 GitHub Contributions Summary
+
+<p align="center">
+  <a href="https://github.com/huuan26">
+    <img src="https://streak-stats.demolab.com/?user=huuan26&theme=dark&hide_border=true&background=0d1117" alt="GitHub Streak Stats" height="180" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/huuan26">
+    <img src="https://github-readme-stats.vercel.app/api?username=huuan26&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117" alt="GitHub Stats" height="180" />
+  </a>
+</p>
