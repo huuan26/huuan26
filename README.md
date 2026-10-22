@@ -1,68 +1,59 @@
-# 👋 Hi there, I'm An Phan!
-**Quantitative Researcher** 
+# An Phan
+**Quantitative Researcher**
 
-Bridging rigorous numerical mathematics with systematic quantitative trading and high-performance computing.
+Bridging numerical mathematics with systematic quantitative trading, derivative pricing, and high-performance computing.
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/Polars-CD792C?style=for-the-badge&logo=polars&logoColor=white" alt="Polars" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-</p>
-<p align="left">
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
-  <img src="https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white" alt="SciPy" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/Python-21262d?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Rust-21262d?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
+  <img src="https://img.shields.io/badge/C%2B%2B-21262d?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/Polars-21262d?style=flat-square&logo=polars&logoColor=white" alt="Polars" />
+  <img src="https://img.shields.io/badge/PostgreSQL-21262d?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Linux-21262d?style=flat-square&logo=linux&logoColor=white" alt="Linux" />
+  <img src="https://img.shields.io/badge/NumPy-21262d?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" />
+  <img src="https://img.shields.io/badge/SciPy-21262d?style=flat-square&logo=scipy&logoColor=white" alt="SciPy" />
+  <img src="https://img.shields.io/badge/PyTorch-21262d?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/Docker-21262d?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Git-21262d?style=flat-square&logo=git&logoColor=white" alt="Git" />
 </p>
 
 ---
 
-### 🚀 Featured Projects
+### Featured Projects
 
 <table width="100%">
   <tr>
     <td width="33.3%" valign="top">
-      <h4><a href="https://github.com/huuan26/polars-anta">⚡ polars-anta ↗</a></h4>
+      <h4><a href="https://github.com/huuan26/polars-anta">polars-anta ↗</a></h4>
       <p>High-performance Technical Analysis & Alpha factor library powered natively by Polars Expressions. Zero-C runtime, 116x faster rolling OLS.</p>
       <p>
-        <img src="https://img.shields.io/badge/Polars-CD792C?style=flat-square&logo=polars&logoColor=white" alt="Polars" />
-        <img src="https://img.shields.io/badge/Rust-DEA584?style=flat-square&logo=rust&logoColor=black" alt="Rust" />
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+        <code>Polars</code> &middot; <code>Rust</code> &middot; <code>Python</code>
       </p>
       <p>
-        <a href="https://github.com/huuan26/polars-anta/stargazers"><img src="https://img.shields.io/github/stars/huuan26/polars-anta?style=flat-square&logo=github&label=Stars&color=e3b341&labelColor=161b22" alt="Stars" /></a>
-        <a href="https://github.com/huuan26/polars-anta/network/members"><img src="https://img.shields.io/github/forks/huuan26/polars-anta?style=flat-square&logo=github&label=Forks&color=58a6ff&labelColor=161b22" alt="Forks" /></a>
+        <a href="https://github.com/huuan26/polars-anta/stargazers"><img src="https://img.shields.io/github/stars/huuan26/polars-anta?style=flat-square&logo=github&label=Stars&color=21262d&labelColor=161b22" alt="Stars" /></a>
+        <a href="https://github.com/huuan26/polars-anta/network/members"><img src="https://img.shields.io/github/forks/huuan26/polars-anta?style=flat-square&logo=github&label=Forks&color=21262d&labelColor=161b22" alt="Forks" /></a>
       </p>
     </td>
     <td width="33.3%" valign="top">
-      <h4><a href="https://github.com/huuan26/OrthoQuant">📐 OrthoQuant ↗</a></h4>
+      <h4><a href="https://github.com/huuan26/OrthoQuant">OrthoQuant ↗</a></h4>
       <p>Symmetric factor orthogonalization and cross-sectional risk neutralization using Lowdin SVD and Frisch–Waugh–Lovell QR projection.</p>
       <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-        <img src="https://img.shields.io/badge/SVD-7B2CBF?style=flat-square" alt="SVD" />
-        <img src="https://img.shields.io/badge/Linear%20Algebra-008080?style=flat-square" alt="Linear Algebra" />
+        <code>Linear Algebra</code> &middot; <code>SVD</code> &middot; <code>QR</code>
       </p>
       <p>
-        <a href="https://github.com/huuan26/OrthoQuant/stargazers"><img src="https://img.shields.io/github/stars/huuan26/OrthoQuant?style=flat-square&logo=github&label=Stars&color=e3b341&labelColor=161b22" alt="Stars" /></a>
-        <a href="https://github.com/huuan26/OrthoQuant/network/members"><img src="https://img.shields.io/github/forks/huuan26/OrthoQuant?style=flat-square&logo=github&label=Forks&color=58a6ff&labelColor=161b22" alt="Forks" /></a>
+        <a href="https://github.com/huuan26/OrthoQuant/stargazers"><img src="https://img.shields.io/github/stars/huuan26/OrthoQuant?style=flat-square&logo=github&label=Stars&color=21262d&labelColor=161b22" alt="Stars" /></a>
+        <a href="https://github.com/huuan26/OrthoQuant/network/members"><img src="https://img.shields.io/github/forks/huuan26/OrthoQuant?style=flat-square&logo=github&label=Forks&color=21262d&labelColor=161b22" alt="Forks" /></a>
       </p>
     </td>
     <td width="33.3%" valign="top">
-      <h4><a href="https://github.com/huuan26/OptiAlpha">🎯 OptiAlpha ↗</a></h4>
+      <h4><a href="https://github.com/huuan26/OptiAlpha">OptiAlpha ↗</a></h4>
       <p>Convex regularized alpha combination & dynamic factor portfolio allocation solved via accelerated proximal gradient (FISTA).</p>
       <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-        <img src="https://img.shields.io/badge/Convex%20Opt-2E7D32?style=flat-square" alt="Convex Opt" />
-        <img src="https://img.shields.io/badge/FISTA-D84315?style=flat-square" alt="FISTA" />
+        <code>Optimization</code> &middot; <code>FISTA</code> &middot; <code>Shrinkage</code>
       </p>
       <p>
-        <a href="https://github.com/huuan26/OptiAlpha/stargazers"><img src="https://img.shields.io/github/stars/huuan26/OptiAlpha?style=flat-square&logo=github&label=Stars&color=e3b341&labelColor=161b22" alt="Stars" /></a>
-        <a href="https://github.com/huuan26/OptiAlpha/network/members"><img src="https://img.shields.io/github/forks/huuan26/OptiAlpha?style=flat-square&logo=github&label=Forks&color=58a6ff&labelColor=161b22" alt="Forks" /></a>
+        <a href="https://github.com/huuan26/OptiAlpha/stargazers"><img src="https://img.shields.io/github/stars/huuan26/OptiAlpha?style=flat-square&logo=github&label=Stars&color=21262d&labelColor=161b22" alt="Stars" /></a>
+        <a href="https://github.com/huuan26/OptiAlpha/network/members"><img src="https://img.shields.io/github/forks/huuan26/OptiAlpha?style=flat-square&logo=github&label=Forks&color=21262d&labelColor=161b22" alt="Forks" /></a>
       </p>
     </td>
   </tr>
@@ -70,7 +61,7 @@ Bridging rigorous numerical mathematics with systematic quantitative trading and
 
 ---
 
-### 🌐 Open-Source Contributions
+### Open-Source Contributions
 
 <table width="100%">
   <tr>
@@ -78,25 +69,23 @@ Bridging rigorous numerical mathematics with systematic quantitative trading and
       <h4><a href="https://github.com/domokane/FinancePy">domokane / FinancePy ↗</a></h4>
       <p><em>Python library for valuation and risk management of financial derivatives.</em></p>
       <ul>
-        <li><a href="https://github.com/domokane/FinancePy/pull/408"><b>PR #408 (Merged)</b></a>: CDSCurve vectorization & day-count alignment</li>
-        <li><a href="https://github.com/domokane/FinancePy/pull/406"><b>PR #406 (Merged)</b></a>: Shifted Black–Derman–Toy model for negative rates</li>
-        <li><a href="https://github.com/domokane/FinancePy/pull/404"><b>PR #404 (Merged)</b></a>: Equity cliquet option valuation & Monte Carlo</li>
+        <li><a href="https://github.com/domokane/FinancePy/pull/408"><b>PR #408 (Merged)</b></a>: Vectorized CDSCurve discount factors & day-count alignment</li>
+        <li><a href="https://github.com/domokane/FinancePy/pull/406"><b>PR #406 (Merged)</b></a>: Extended Shifted Black–Derman–Toy tree for negative rates</li>
+        <li><a href="https://github.com/domokane/FinancePy/pull/404"><b>PR #404 (Merged)</b></a>: Analytical closed-form & Monte Carlo cliquet option valuation</li>
       </ul>
       <p>
-        <img src="https://img.shields.io/badge/Quant_Finance-1B365D?style=flat-square" alt="Quant Finance" />
-        <img src="https://img.shields.io/badge/Derivatives-005A9C?style=flat-square" alt="Derivatives" />
+        <code>Derivatives</code> &middot; <code>Interest Rate Trees</code> &middot; <code>Monte Carlo</code>
       </p>
     </td>
     <td width="50%" valign="top">
       <h4><a href="https://github.com/OpenByteInc/QuantDinger">OpenByteInc / QuantDinger ↗</a></h4>
       <p><em>Open-source algorithmic trading and quantitative strategy research framework.</em></p>
       <ul>
-        <li><a href="https://github.com/OpenByteInc/QuantDinger/pull/298"><b>PR #298 (Merged)</b></a>: Multi-timeframe duration & metric annualization</li>
-        <li><a href="https://github.com/OpenByteInc/QuantDinger/pull/294"><b>PR #294 (Merged)</b></a>: Factor warmup standardization across technical indicators</li>
+        <li><a href="https://github.com/OpenByteInc/QuantDinger/pull/298"><b>PR #298 (Merged)</b></a>: Multi-timeframe duration & metric annualization scaling</li>
+        <li><a href="https://github.com/OpenByteInc/QuantDinger/pull/294"><b>PR #294 (Merged)</b></a>: Factor lookback warmup alignment across technical indicators</li>
       </ul>
       <p>
-        <img src="https://img.shields.io/badge/Algo_Trading-388E3C?style=flat-square" alt="Algo Trading" />
-        <img src="https://img.shields.io/badge/Backtesting-F57C00?style=flat-square" alt="Backtesting" />
+        <code>Backtesting Engine</code> &middot; <code>Alpha Pipeline</code> &middot; <code>Time-Series</code>
       </p>
     </td>
   </tr>
@@ -104,27 +93,27 @@ Bridging rigorous numerical mathematics with systematic quantitative trading and
 
 ---
 
-### 📝 Research Notes & Technical Insights
+### Research & Technical Notes
 
-- 📄 **[Decomposing OLS Linear Regression into WMA/SMA for 100x Speedup in Polars](https://github.com/huuan26/polars-anta)** &nbsp;—&nbsp; *Oct 2026*  
+- **[Decomposing OLS Linear Regression into WMA/SMA for 100x Speedup in Polars](https://github.com/huuan26/polars-anta)** &mdash; `Oct 2026`  
   *Closed-form mathematical refactoring of rolling least-squares into prefix sums and weighted moving averages.*
 
-- 📄 **[Lowdin Symmetric Orthogonalization for Cross-Sectional Alpha Factors](https://github.com/huuan26/OrthoQuant)** &nbsp;—&nbsp; *Sep 2026*  
+- **[Lowdin Symmetric Orthogonalization for Cross-Sectional Alpha Factors](https://github.com/huuan26/OrthoQuant)** &mdash; `Sep 2026`  
   *Eliminating factor multi-collinearity via SVD-based unitary transformation while preserving maximal correlation.*
 
-- 📄 **[Shifted Black–Derman–Toy Short-Rate Trees in Negative Yield Environments](https://github.com/domokane/FinancePy/pull/406)** &nbsp;—&nbsp; *Aug 2026*  
+- **[Shifted Black–Derman–Toy Short-Rate Trees in Negative Yield Environments](https://github.com/domokane/FinancePy/pull/406)** &mdash; `Aug 2026`  
   *Extending log-normal short rate lattice dynamics to negative interest rate regimes with boundary calibrations.*
 
 ---
 
-### 📊 GitHub Contributions Summary
+### Activity & Metrics
 
 <p align="center">
   <a href="https://github.com/huuan26">
-    <img src="https://streak-stats.demolab.com/?user=huuan26&theme=dark&hide_border=true&background=0d1117" alt="GitHub Streak Stats" height="180" />
+    <img src="https://github-readme-stats.vercel.app/api?username=huuan26&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&text_color=8b949e&icon_color=58a6ff&title_color=f0f6fc" alt="GitHub Metrics" height="165" />
   </a>
   &nbsp;&nbsp;
   <a href="https://github.com/huuan26">
-    <img src="https://github-readme-stats.vercel.app/api?username=huuan26&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117" alt="GitHub Stats" height="180" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=huuan26&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&text_color=8b949e&title_color=f0f6fc" alt="Top Languages" height="165" />
   </a>
 </p>
