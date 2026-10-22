@@ -53,27 +53,39 @@ Bridging numerical mathematics with systematic quantitative trading, derivative 
 
 <table width="100%">
   <tr>
-    <td width="50%" valign="top">
+    <td width="33.3%" valign="top">
       <h4><a href="https://github.com/domokane/FinancePy">domokane / FinancePy ↗</a></h4>
-      <p><em>Python library for valuation and risk management of financial derivatives.</em></p>
+      <p><em>Valuation and risk management of financial derivatives.</em></p>
       <ul>
         <li><a href="https://github.com/domokane/FinancePy/pull/408"><b>PR #408 (Merged)</b></a>: Vectorized CDSCurve discount factors & day-count alignment</li>
         <li><a href="https://github.com/domokane/FinancePy/pull/406"><b>PR #406 (Merged)</b></a>: Extended Shifted Black–Derman–Toy tree for negative rates</li>
         <li><a href="https://github.com/domokane/FinancePy/pull/404"><b>PR #404 (Merged)</b></a>: Analytical closed-form & Monte Carlo cliquet option valuation</li>
       </ul>
       <p>
-        <code>Derivatives</code> &middot; <code>Interest Rate Trees</code> &middot; <code>Monte Carlo</code>
+        <code>Derivatives</code> &middot; <code>Short-Rate Trees</code> &middot; <code>Monte Carlo</code>
       </p>
     </td>
-    <td width="50%" valign="top">
+    <td width="33.3%" valign="top">
       <h4><a href="https://github.com/OpenByteInc/QuantDinger">OpenByteInc / QuantDinger ↗</a></h4>
-      <p><em>Open-source algorithmic trading and quantitative strategy research framework.</em></p>
+      <p><em>Quantitative trading and systematic research framework.</em></p>
       <ul>
+        <li><a href="https://github.com/OpenByteInc/QuantDinger/pull/300"><b>PR #300 (Merged)</b></a>: Monthly timeframe & benchmark alignment in Information Ratio</li>
         <li><a href="https://github.com/OpenByteInc/QuantDinger/pull/298"><b>PR #298 (Merged)</b></a>: Multi-timeframe duration & metric annualization scaling</li>
         <li><a href="https://github.com/OpenByteInc/QuantDinger/pull/294"><b>PR #294 (Merged)</b></a>: Factor lookback warmup alignment across technical indicators</li>
       </ul>
       <p>
         <code>Backtesting Engine</code> &middot; <code>Alpha Pipeline</code> &middot; <code>Time-Series</code>
+      </p>
+    </td>
+    <td width="33.3%" valign="top">
+      <h4><a href="https://github.com/jealous/stockstats">jealous / stockstats ↗</a></h4>
+      <p><em>Pandas DataFrame wrapper for financial indicators (4.1k+ stars).</em></p>
+      <ul>
+        <li><a href="https://github.com/jealous/stockstats/pull/210"><b>PR #210 (Merged)</b></a>: SSL Channel (Securement Stop Loss Channel) implementation</li>
+        <li><a href="https://github.com/jealous/stockstats/pull/208"><b>PR #208 (Merged)</b></a>: Weighted Moving Average (WMA) & Hull Moving Average (HMA)</li>
+      </ul>
+      <p>
+        <code>Technical Indicators</code> &middot; <code>Pandas</code> &middot; <code>WMA / HMA</code>
       </p>
     </td>
   </tr>
