@@ -29,10 +29,6 @@ Bridging numerical mathematics with systematic quantitative trading, derivative 
       <p>
         <code>Polars</code> &middot; <code>Rust</code> &middot; <code>Python</code>
       </p>
-      <p>
-        <a href="https://github.com/huuan26/polars-anta/stargazers"><img src="https://img.shields.io/github/stars/huuan26/polars-anta?style=flat-square&logo=github&label=Stars&color=21262d&labelColor=161b22" alt="Stars" /></a>
-        <a href="https://github.com/huuan26/polars-anta/network/members"><img src="https://img.shields.io/github/forks/huuan26/polars-anta?style=flat-square&logo=github&label=Forks&color=21262d&labelColor=161b22" alt="Forks" /></a>
-      </p>
     </td>
     <td width="33.3%" valign="top">
       <h4><a href="https://github.com/huuan26/OrthoQuant">OrthoQuant ↗</a></h4>
@@ -40,20 +36,12 @@ Bridging numerical mathematics with systematic quantitative trading, derivative 
       <p>
         <code>Linear Algebra</code> &middot; <code>SVD</code> &middot; <code>QR</code>
       </p>
-      <p>
-        <a href="https://github.com/huuan26/OrthoQuant/stargazers"><img src="https://img.shields.io/github/stars/huuan26/OrthoQuant?style=flat-square&logo=github&label=Stars&color=21262d&labelColor=161b22" alt="Stars" /></a>
-        <a href="https://github.com/huuan26/OrthoQuant/network/members"><img src="https://img.shields.io/github/forks/huuan26/OrthoQuant?style=flat-square&logo=github&label=Forks&color=21262d&labelColor=161b22" alt="Forks" /></a>
-      </p>
     </td>
     <td width="33.3%" valign="top">
       <h4><a href="https://github.com/huuan26/OptiAlpha">OptiAlpha ↗</a></h4>
       <p>Convex regularized alpha combination & dynamic factor portfolio allocation solved via accelerated proximal gradient (FISTA).</p>
       <p>
         <code>Optimization</code> &middot; <code>FISTA</code> &middot; <code>Shrinkage</code>
-      </p>
-      <p>
-        <a href="https://github.com/huuan26/OptiAlpha/stargazers"><img src="https://img.shields.io/github/stars/huuan26/OptiAlpha?style=flat-square&logo=github&label=Stars&color=21262d&labelColor=161b22" alt="Stars" /></a>
-        <a href="https://github.com/huuan26/OptiAlpha/network/members"><img src="https://img.shields.io/github/forks/huuan26/OptiAlpha?style=flat-square&logo=github&label=Forks&color=21262d&labelColor=161b22" alt="Forks" /></a>
       </p>
     </td>
   </tr>
