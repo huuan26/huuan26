@@ -1,5 +1,5 @@
 # 👋 Hi there, I'm An Phan!
-**Quantitative Researcher & Computational Finance Engineer** 🟠 🔵 🟢
+**Quantitative Researcher** 
 
 Bridging rigorous numerical mathematics with systematic quantitative trading and high-performance computing.
 
