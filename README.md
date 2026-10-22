@@ -34,7 +34,10 @@ Bridging rigorous numerical mathematics with systematic quantitative trading and
         <img src="https://img.shields.io/badge/Rust-DEA584?style=flat-square&logo=rust&logoColor=black" alt="Rust" />
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
       </p>
-      <p>⭐ 8 &nbsp;&bull;&nbsp; 🍴 0</p>
+      <p>
+        <a href="https://github.com/huuan26/polars-anta/stargazers"><img src="https://img.shields.io/github/stars/huuan26/polars-anta?style=flat-square&label=%E2%AD%90%20stars&color=e3b341&labelColor=161b22" alt="Stars" /></a>
+        <a href="https://github.com/huuan26/polars-anta/network/members"><img src="https://img.shields.io/github/forks/huuan26/polars-anta?style=flat-square&label=%F0%9F%8D%B4%20forks&color=58a6ff&labelColor=161b22" alt="Forks" /></a>
+      </p>
     </td>
     <td width="33.3%" valign="top">
       <h4><a href="https://github.com/huuan26/OrthoQuant">📐 OrthoQuant ↗</a></h4>
@@ -44,7 +47,10 @@ Bridging rigorous numerical mathematics with systematic quantitative trading and
         <img src="https://img.shields.io/badge/SVD-7B2CBF?style=flat-square" alt="SVD" />
         <img src="https://img.shields.io/badge/Linear%20Algebra-008080?style=flat-square" alt="Linear Algebra" />
       </p>
-      <p>⭐ 0 &nbsp;&bull;&nbsp; 🍴 0</p>
+      <p>
+        <a href="https://github.com/huuan26/OrthoQuant/stargazers"><img src="https://img.shields.io/github/stars/huuan26/OrthoQuant?style=flat-square&label=%E2%AD%90%20stars&color=e3b341&labelColor=161b22" alt="Stars" /></a>
+        <a href="https://github.com/huuan26/OrthoQuant/network/members"><img src="https://img.shields.io/github/forks/huuan26/OrthoQuant?style=flat-square&label=%F0%9F%8D%B4%20forks&color=58a6ff&labelColor=161b22" alt="Forks" /></a>
+      </p>
     </td>
     <td width="33.3%" valign="top">
       <h4><a href="https://github.com/huuan26/OptiAlpha">🎯 OptiAlpha ↗</a></h4>
@@ -54,7 +60,10 @@ Bridging rigorous numerical mathematics with systematic quantitative trading and
         <img src="https://img.shields.io/badge/Convex%20Opt-2E7D32?style=flat-square" alt="Convex Opt" />
         <img src="https://img.shields.io/badge/FISTA-D84315?style=flat-square" alt="FISTA" />
       </p>
-      <p>⭐ 0 &nbsp;&bull;&nbsp; 🍴 0</p>
+      <p>
+        <a href="https://github.com/huuan26/OptiAlpha/stargazers"><img src="https://img.shields.io/github/stars/huuan26/OptiAlpha?style=flat-square&label=%E2%AD%90%20stars&color=e3b341&labelColor=161b22" alt="Stars" /></a>
+        <a href="https://github.com/huuan26/OptiAlpha/network/members"><img src="https://img.shields.io/github/forks/huuan26/OptiAlpha?style=flat-square&label=%F0%9F%8D%B4%20forks&color=58a6ff&labelColor=161b22" alt="Forks" /></a>
+      </p>
     </td>
   </tr>
 </table>
