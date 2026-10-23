@@ -54,6 +54,19 @@ Bridging numerical mathematics with systematic quantitative trading, derivative 
 <table width="100%">
   <tr>
     <td width="33.3%" valign="top">
+      <h4><a href="https://github.com/OpenByteInc/QuantDinger">OpenByteInc / QuantDinger ↗</a></h4>
+      <p><em>Quantitative trading and systematic research framework.</em></p>
+      <ul>
+        <li><a href="https://github.com/OpenByteInc/QuantDinger/pull/303"><b>PR #303 (Merged)</b></a>: Benchmark-relative metrics (Beta, Jensen's Alpha, Treynor, Capture Ratios)</li>
+        <li><a href="https://github.com/OpenByteInc/QuantDinger/pull/300"><b>PR #300 (Merged)</b></a>: Monthly timeframe & benchmark alignment in Information Ratio</li>
+        <li><a href="https://github.com/OpenByteInc/QuantDinger/pull/298"><b>PR #298 (Merged)</b></a>: Multi-timeframe duration & metric annualization scaling</li>
+        <li><a href="https://github.com/OpenByteInc/QuantDinger/pull/294"><b>PR #294 (Merged)</b></a>: Factor lookback warmup alignment across technical indicators</li>
+      </ul>
+      <p>
+        <code>Backtesting Engine</code> &middot; <code>Alpha Pipeline</code> &middot; <code>Time-Series</code>
+      </p>
+    </td>
+    <td width="33.3%" valign="top">
       <h4><a href="https://github.com/domokane/FinancePy">domokane / FinancePy ↗</a></h4>
       <p><em>Valuation and risk management of financial derivatives.</em></p>
       <ul>
@@ -63,18 +76,6 @@ Bridging numerical mathematics with systematic quantitative trading, derivative 
       </ul>
       <p>
         <code>Derivatives</code> &middot; <code>Short-Rate Trees</code> &middot; <code>Monte Carlo</code>
-      </p>
-    </td>
-    <td width="33.3%" valign="top">
-      <h4><a href="https://github.com/OpenByteInc/QuantDinger">OpenByteInc / QuantDinger ↗</a></h4>
-      <p><em>Quantitative trading and systematic research framework.</em></p>
-      <ul>
-        <li><a href="https://github.com/OpenByteInc/QuantDinger/pull/300"><b>PR #300 (Merged)</b></a>: Monthly timeframe & benchmark alignment in Information Ratio</li>
-        <li><a href="https://github.com/OpenByteInc/QuantDinger/pull/298"><b>PR #298 (Merged)</b></a>: Multi-timeframe duration & metric annualization scaling</li>
-        <li><a href="https://github.com/OpenByteInc/QuantDinger/pull/294"><b>PR #294 (Merged)</b></a>: Factor lookback warmup alignment across technical indicators</li>
-      </ul>
-      <p>
-        <code>Backtesting Engine</code> &middot; <code>Alpha Pipeline</code> &middot; <code>Time-Series</code>
       </p>
     </td>
     <td width="33.3%" valign="top">
