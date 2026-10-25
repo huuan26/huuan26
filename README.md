@@ -25,7 +25,7 @@ Bridging numerical mathematics with systematic quantitative trading, derivative 
   <tr>
     <td width="33.3%" valign="top">
       <h4><a href="https://github.com/huuan26/polars-anta">polars-anta ↗</a></h4>
-      <p>High-performance Technical Analysis & Alpha factor library powered natively by Polars Expressions. Zero-C runtime, 116x faster rolling OLS.</p>
+      <p>High-performance Technical Analysis & Alpha factor library (123 indicators, WorldQuant 101 Alphas, Resampling). Zero-C runtime, 42x faster OLS.</p>
       <p>
         <code>Polars</code> &middot; <code>Rust</code> &middot; <code>Python</code>
       </p>
@@ -57,10 +57,11 @@ Bridging numerical mathematics with systematic quantitative trading, derivative 
       <h4><a href="https://github.com/OpenByteInc/QuantDinger">OpenByteInc / QuantDinger ↗</a></h4>
       <p><em>Quantitative trading and systematic research framework.</em></p>
       <ul>
-        <li><a href="https://github.com/OpenByteInc/QuantDinger/pull/303"><b>PR #303 (Merged)</b></a>: Benchmark-relative metrics (Beta, Jensen's Alpha, Treynor, Capture Ratios)</li>
-        <li><a href="https://github.com/OpenByteInc/QuantDinger/pull/300"><b>PR #300 (Merged)</b></a>: Monthly timeframe & benchmark alignment in Information Ratio</li>
-        <li><a href="https://github.com/OpenByteInc/QuantDinger/pull/298"><b>PR #298 (Merged)</b></a>: Multi-timeframe duration & metric annualization scaling</li>
-        <li><a href="https://github.com/OpenByteInc/QuantDinger/pull/294"><b>PR #294 (Merged)</b></a>: Factor lookback warmup alignment across technical indicators</li>
+        <li><a href="https://github.com/OpenByteInc/QuantDinger/pull/307"><b>PR #307 (Merged)</b></a>: Benchmark analytics (M&sup2;, Dual-Beta, Batting Average)</li>
+        <li><a href="https://github.com/OpenByteInc/QuantDinger/pull/306"><b>PR #306 (Merged)</b></a>: Downside risk, Sortino, Calmar, Drawdown Recovery</li>
+        <li><a href="https://github.com/OpenByteInc/QuantDinger/pull/303"><b>PR #303 (Merged)</b></a>: Benchmark-relative metrics (Beta, Jensen's Alpha, Treynor)</li>
+        <li><a href="https://github.com/OpenByteInc/QuantDinger/pull/300"><b>PR #300 (Merged)</b></a>: Monthly timeframe & benchmark alignment in IR</li>
+        <li><a href="https://github.com/OpenByteInc/QuantDinger/pull/298"><b>PR #298 (Merged)</b></a>: Multi-timeframe duration & metric annualization</li>
       </ul>
       <p>
         <code>Backtesting Engine</code> &middot; <code>Alpha Pipeline</code> &middot; <code>Time-Series</code>
@@ -70,8 +71,9 @@ Bridging numerical mathematics with systematic quantitative trading, derivative 
       <h4><a href="https://github.com/domokane/FinancePy">domokane / FinancePy ↗</a></h4>
       <p><em>Valuation and risk management of financial derivatives.</em></p>
       <ul>
+        <li><a href="https://github.com/domokane/FinancePy/pull/420"><b>PR #420 (Merged)</b></a>: Shifted Black–Karasinski (BKTree) for negative rates</li>
         <li><a href="https://github.com/domokane/FinancePy/pull/408"><b>PR #408 (Merged)</b></a>: Vectorized CDSCurve discount factors & day-count alignment</li>
-        <li><a href="https://github.com/domokane/FinancePy/pull/406"><b>PR #406 (Merged)</b></a>: Extended Shifted Black–Derman–Toy tree for negative rates</li>
+        <li><a href="https://github.com/domokane/FinancePy/pull/406"><b>PR #406 (Merged)</b></a>: Extended Shifted Black–Derman–Toy tree (BDTTree)</li>
         <li><a href="https://github.com/domokane/FinancePy/pull/404"><b>PR #404 (Merged)</b></a>: Analytical closed-form & Monte Carlo cliquet option valuation</li>
       </ul>
       <p>
@@ -102,8 +104,8 @@ Bridging numerical mathematics with systematic quantitative trading, derivative 
 - **[Lowdin Symmetric Orthogonalization for Cross-Sectional Alpha Factors](https://github.com/huuan26/OrthoQuant)** &mdash; `Sep 2026`  
   *Eliminating factor multi-collinearity via SVD-based unitary transformation while preserving maximal correlation.*
 
-- **[Shifted Black–Derman–Toy Short-Rate Trees in Negative Yield Environments](https://github.com/domokane/FinancePy/pull/406)** &mdash; `Aug 2026`  
-  *Extending log-normal short rate lattice dynamics to negative interest rate regimes with boundary calibrations.*
+- **[Shifted Short-Rate Lattices (BK / BDT) in Negative Yield Regimes](https://github.com/domokane/FinancePy/pull/420)** &mdash; `Oct 2026`  
+  *Extending log-normal short rate tree dynamics (Black–Karasinski & Black–Derman–Toy) to negative interest rates with state-price calibration.*
 
 ---
 
@@ -118,4 +120,3 @@ Bridging numerical mathematics with systematic quantitative trading, derivative 
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=huuan26&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&text_color=8b949e&title_color=f0f6fc&hide=html,css" alt="Top Languages" height="165" />
   </a>
 </p>
-
