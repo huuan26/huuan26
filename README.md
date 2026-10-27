@@ -24,22 +24,31 @@
 
 <table width="100%">
   <tr>
-    <td width="33.3%" valign="top">
-      <h4><a href="https://github.com/OpenByteInc/QuantDinger">OpenByteInc / QuantDinger ↗</a></h4>
-      <p><em>Quantitative trading and systematic research framework.</em></p>
+    <td width="50%" valign="top">
+      <h4>
+        <a href="https://github.com/OpenByteInc/QuantDinger">OpenByteInc / QuantDinger ↗</a>
+        <a href="https://github.com/OpenByteInc/QuantDinger">
+          <img src="https://img.shields.io/github/stars/OpenByteInc/QuantDinger?style=flat-square&logo=github&color=e3b341&labelColor=21262d" alt="stars" align="right" />
+        </a>
+      </h4>
+      <p><em>Quantitative trading and systematic strategy research framework.</em></p>
       <ul>
         <li><a href="https://github.com/OpenByteInc/QuantDinger/pull/307"><b>PR #307 (Merged)</b></a>: Benchmark analytics (M&sup2;, Dual-Beta, Batting Average)</li>
-        <li><a href="https://github.com/OpenByteInc/QuantDinger/pull/306"><b>PR #306 (Merged)</b></a>: Downside risk, Sortino, Calmar, Drawdown Recovery</li>
+        <li><a href="https://github.com/OpenByteInc/QuantDinger/pull/306"><b>PR #306 (Merged)</b></a>: Downside risk framework (Sortino, Calmar, Drawdown Recovery)</li>
         <li><a href="https://github.com/OpenByteInc/QuantDinger/pull/303"><b>PR #303 (Merged)</b></a>: Benchmark-relative metrics (Beta, Jensen's Alpha, Treynor)</li>
-        <li><a href="https://github.com/OpenByteInc/QuantDinger/pull/300"><b>PR #300 (Merged)</b></a>: Monthly timeframe & benchmark alignment in IR</li>
-        <li><a href="https://github.com/OpenByteInc/QuantDinger/pull/298"><b>PR #298 (Merged)</b></a>: Multi-timeframe duration & metric annualization</li>
+        <li><a href="https://github.com/OpenByteInc/QuantDinger/pull/300"><b>PR #300</b></a> &middot; <a href="https://github.com/OpenByteInc/QuantDinger/pull/298"><b>#298 (Merged)</b></a>: Multi-timeframe duration & metric annualization</li>
       </ul>
       <p>
-        <code>Backtesting Engine</code> &middot; <code>Alpha Pipeline</code> &middot; <code>Time-Series</code>
+        <code>Backtesting Engine</code> &middot; <code>Alpha Pipeline</code> &middot; <code>Time-Series Analytics</code>
       </p>
     </td>
-    <td width="33.3%" valign="top">
-      <h4><a href="https://github.com/domokane/FinancePy">domokane / FinancePy ↗</a></h4>
+    <td width="50%" valign="top">
+      <h4>
+        <a href="https://github.com/domokane/FinancePy">domokane / FinancePy ↗</a>
+        <a href="https://github.com/domokane/FinancePy">
+          <img src="https://img.shields.io/github/stars/domokane/FinancePy?style=flat-square&logo=github&color=e3b341&labelColor=21262d" alt="stars" align="right" />
+        </a>
+      </h4>
       <p><em>Valuation and risk management of financial derivatives.</em></p>
       <ul>
         <li><a href="https://github.com/domokane/FinancePy/pull/420"><b>PR #420 (Merged)</b></a>: Shifted Black–Karasinski (BKTree) for negative rates</li>
@@ -48,18 +57,7 @@
         <li><a href="https://github.com/domokane/FinancePy/pull/404"><b>PR #404 (Merged)</b></a>: Analytical closed-form & Monte Carlo cliquet option valuation</li>
       </ul>
       <p>
-        <code>Derivatives</code> &middot; <code>Short-Rate Trees</code> &middot; <code>Monte Carlo</code>
-      </p>
-    </td>
-    <td width="33.3%" valign="top">
-      <h4><a href="https://github.com/jealous/stockstats">jealous / stockstats ↗</a></h4>
-      <p><em>Pandas DataFrame wrapper for financial indicators (4.1k+ stars).</em></p>
-      <ul>
-        <li><a href="https://github.com/jealous/stockstats/pull/210"><b>PR #210 (Merged)</b></a>: SSL Channel (Securement Stop Loss Channel) implementation</li>
-        <li><a href="https://github.com/jealous/stockstats/pull/208"><b>PR #208 (Merged)</b></a>: Weighted Moving Average (WMA) & Hull Moving Average (HMA)</li>
-      </ul>
-      <p>
-        <code>Technical Indicators</code> &middot; <code>Pandas</code> &middot; <code>WMA / HMA</code>
+        <code>Derivatives Pricing</code> &middot; <code>Short-Rate Trees</code> &middot; <code>Monte Carlo Simulation</code>
       </p>
     </td>
   </tr>
