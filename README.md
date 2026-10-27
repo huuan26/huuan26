@@ -21,46 +21,11 @@
 
 ### Open-Source Contributions
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h4>
-        <a href="https://github.com/OpenByteInc/QuantDinger">OpenByteInc / QuantDinger ↗</a>
-        <a href="https://github.com/OpenByteInc/QuantDinger">
-          <img src="https://img.shields.io/github/stars/OpenByteInc/QuantDinger?style=flat-square&logo=github&color=e3b341&labelColor=21262d" alt="stars" align="right" />
-        </a>
-      </h4>
-      <p><em>Quantitative trading and systematic strategy research framework.</em></p>
-      <ul>
-        <li><a href="https://github.com/OpenByteInc/QuantDinger/pull/307"><b>PR #307 (Merged)</b></a>: Benchmark analytics (M&sup2;, Dual-Beta, Batting Average)</li>
-        <li><a href="https://github.com/OpenByteInc/QuantDinger/pull/306"><b>PR #306 (Merged)</b></a>: Downside risk framework (Sortino, Calmar, Drawdown Recovery)</li>
-        <li><a href="https://github.com/OpenByteInc/QuantDinger/pull/303"><b>PR #303 (Merged)</b></a>: Benchmark-relative metrics (Beta, Jensen's Alpha, Treynor)</li>
-        <li><a href="https://github.com/OpenByteInc/QuantDinger/pull/300"><b>PR #300</b></a> &middot; <a href="https://github.com/OpenByteInc/QuantDinger/pull/298"><b>#298 (Merged)</b></a>: Multi-timeframe duration & metric annualization</li>
-      </ul>
-      <p>
-        <code>Backtesting Engine</code> &middot; <code>Alpha Pipeline</code> &middot; <code>Time-Series Analytics</code>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h4>
-        <a href="https://github.com/domokane/FinancePy">domokane / FinancePy ↗</a>
-        <a href="https://github.com/domokane/FinancePy">
-          <img src="https://img.shields.io/github/stars/domokane/FinancePy?style=flat-square&logo=github&color=e3b341&labelColor=21262d" alt="stars" align="right" />
-        </a>
-      </h4>
-      <p><em>Valuation and risk management of financial derivatives.</em></p>
-      <ul>
-        <li><a href="https://github.com/domokane/FinancePy/pull/420"><b>PR #420 (Merged)</b></a>: Shifted Black–Karasinski (BKTree) for negative rates</li>
-        <li><a href="https://github.com/domokane/FinancePy/pull/408"><b>PR #408 (Merged)</b></a>: Vectorized CDSCurve discount factors & day-count alignment</li>
-        <li><a href="https://github.com/domokane/FinancePy/pull/406"><b>PR #406 (Merged)</b></a>: Extended Shifted Black–Derman–Toy tree (BDTTree)</li>
-        <li><a href="https://github.com/domokane/FinancePy/pull/404"><b>PR #404 (Merged)</b></a>: Analytical closed-form & Monte Carlo cliquet option valuation</li>
-      </ul>
-      <p>
-        <code>Derivatives Pricing</code> &middot; <code>Short-Rate Trees</code> &middot; <code>Monte Carlo Simulation</code>
-      </p>
-    </td>
-  </tr>
-</table>
+- **[QuantDinger](https://github.com/OpenByteInc/QuantDinger)** &nbsp;`Systematic Trading OS`  
+  [`#307 (Merged)`](https://github.com/OpenByteInc/QuantDinger/pull/307) Benchmark analytics ($M^2$, Dual-Beta, Batting Avg) &bull; [`#306 (Merged)`](https://github.com/OpenByteInc/QuantDinger/pull/306) Downside risk framework (Sortino, Calmar, Drawdown) &bull; [`#303 (Merged)`](https://github.com/OpenByteInc/QuantDinger/pull/303) Jensen's Alpha & Treynor pipeline
+
+- **[FinancePy](https://github.com/domokane/FinancePy)** &nbsp;`Derivatives Valuation & Risk`  
+  [`#420 (Merged)`](https://github.com/domokane/FinancePy/pull/420) Shifted Black–Karasinski (negative rate lattice) &bull; [`#408 (Merged)`](https://github.com/domokane/FinancePy/pull/408) Vectorized CDSCurve discount factors &bull; [`#404 (Merged)`](https://github.com/domokane/FinancePy/pull/404) Cliquet option valuation (Monte Carlo)
 
 ---
 
