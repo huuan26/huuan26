@@ -146,10 +146,10 @@
 
     <!-- Line 4: Unified Slate Feature Chips (Synchronized with README #21262d Badges) -->
     <g transform="translate(0, 185)">
-      <!-- Chip 1: Polars & Rust -->
+      <!-- Chip 1: Alpha Factors -->
       <rect x="0" y="0" width="136" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1" />
       <circle cx="16" cy="13" r="3" fill="#58a6ff" />
-      <text x="74" y="16.5" fill="#e6edf3" font-size="10.5" font-weight="600" text-anchor="middle" class="mono">Polars &amp; Rust</text>
+      <text x="74" y="16.5" fill="#e6edf3" font-size="10.5" font-weight="600" text-anchor="middle" class="mono">Alpha Factors</text>
 
       <!-- Chip 2: Matrix SVD / QR -->
       <rect x="148" y="0" width="148" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1" />
