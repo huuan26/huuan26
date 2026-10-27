@@ -21,7 +21,7 @@ Bridging numerical mathematics with systematic quantitative trading, derivative 
   <img src="https://img.shields.io/badge/Git-21262d?style=flat-square&logo=git&logoColor=white" alt="Git" />
 </p>
 
-
+---
 
 ### Featured Projects
 
