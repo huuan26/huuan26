@@ -39,17 +39,3 @@
 
 - **[Shifted Short-Rate Lattices (BK / BDT) in Negative Yield Regimes](https://github.com/domokane/FinancePy/pull/420)** &mdash; `Oct 2026`  
   *Extending log-normal short rate tree dynamics (Black–Karasinski & Black–Derman–Toy) to negative interest rates with state-price calibration.*
-
----
-
-### Activity & Metrics
-
-<p align="center">
-  <a href="https://github.com/huuan26">
-    <img src="https://github-readme-stats.vercel.app/api?username=huuan26&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&text_color=8b949e&icon_color=58a6ff&title_color=f0f6fc" alt="GitHub Metrics" height="165" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/huuan26">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=huuan26&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&text_color=8b949e&title_color=f0f6fc&hide=html,css" alt="Top Languages" height="165" />
-  </a>
-</p>
