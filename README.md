@@ -22,7 +22,7 @@
 ### Open-Source Contributions
 
 - **[QuantDinger](https://github.com/OpenByteInc/QuantDinger)** &nbsp;`Systematic Trading OS`  
-  [`#307 (Merged)`](https://github.com/OpenByteInc/QuantDinger/pull/307) Benchmark analytics ($M^2$, Dual-Beta, Batting Avg) &bull; [`#306 (Merged)`](https://github.com/OpenByteInc/QuantDinger/pull/306) Downside risk framework (Sortino, Calmar, Drawdown) &bull; [`#303 (Merged)`](https://github.com/OpenByteInc/QuantDinger/pull/303) Jensen's Alpha & Treynor pipeline
+  [`#324 (Merged)`](https://github.com/OpenByteInc/QuantDinger/pull/324) Tail risk framework (VaR, CVaR, Omega Ratio) &bull; [`#307 (Merged)`](https://github.com/OpenByteInc/QuantDinger/pull/307) Benchmark analytics ($M^2$, Dual-Beta, Batting Avg) &bull; [`#306 (Merged)`](https://github.com/OpenByteInc/QuantDinger/pull/306) Downside risk framework (Sortino, Calmar, Drawdown) &bull; [`#303 (Merged)`](https://github.com/OpenByteInc/QuantDinger/pull/303) Jensen's Alpha & Treynor pipeline
 
 - **[FinancePy](https://github.com/domokane/FinancePy)** &nbsp;`Derivatives Valuation & Risk`  
   [`#420 (Merged)`](https://github.com/domokane/FinancePy/pull/420) Shifted Black–Karasinski (negative rate lattice) &bull; [`#408 (Merged)`](https://github.com/domokane/FinancePy/pull/408) Vectorized CDSCurve discount factors &bull; [`#404 (Merged)`](https://github.com/domokane/FinancePy/pull/404) Cliquet option valuation (Monte Carlo)
