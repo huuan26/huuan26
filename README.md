@@ -20,36 +20,6 @@
 
 ---
 
-### Featured Projects
-
-<table width="100%">
-  <tr>
-    <td width="33.3%" valign="top">
-      <h4><a href="https://github.com/huuan26/polars-anta">polars-anta ↗</a></h4>
-      <p>High-performance Technical Analysis & Alpha factor library (123 indicators, WorldQuant 101 Alphas, Resampling). Zero-C runtime, 42x faster OLS.</p>
-      <p>
-        <code>Polars</code> &middot; <code>Rust</code> &middot; <code>Python</code>
-      </p>
-    </td>
-    <td width="33.3%" valign="top">
-      <h4><a href="https://github.com/huuan26/OrthoQuant">OrthoQuant ↗</a></h4>
-      <p>Symmetric factor orthogonalization and cross-sectional risk neutralization using Lowdin SVD and Frisch–Waugh–Lovell QR projection.</p>
-      <p>
-        <code>Linear Algebra</code> &middot; <code>SVD</code> &middot; <code>QR</code>
-      </p>
-    </td>
-    <td width="33.3%" valign="top">
-      <h4><a href="https://github.com/huuan26/OptiAlpha">OptiAlpha ↗</a></h4>
-      <p>Convex regularized alpha combination & dynamic factor portfolio allocation solved via accelerated proximal gradient (FISTA).</p>
-      <p>
-        <code>Optimization</code> &middot; <code>FISTA</code> &middot; <code>Shrinkage</code>
-      </p>
-    </td>
-  </tr>
-</table>
-
----
-
 ### Open-Source Contributions
 
 <table width="100%">
