@@ -1,4 +1,4 @@
-# An Phan <a href="https://github.com/huuan26/polars-anta"><img src="assets/logo_polars_anta_transparent.png" alt="polars-anta" height="40" align="center" /></a>
+# An Phan <a href="https://github.com/huuan26/polars-anta"><img src="assets/logo_polars_anta_transparent.png" alt="polars-anta" height="50" align="center" /></a>
 **Quantitative Researcher**
 
 Bridging numerical mathematics with systematic quantitative trading, derivative pricing, and high-performance computing.
