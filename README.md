@@ -1,13 +1,10 @@
-<a href="https://github.com/huuan26/polars-anta">
-  <img align="right" src="assets/logo_polars_anta_transparent.png" alt="polars-anta" width="130" />
-</a>
+<p align="center">
+  <a href="https://github.com/huuan26/polars-anta">
+    <img src="assets/cyber_quant_banner.svg" alt="Hi, I'm Huu An - Quantitative Researcher" width="100%" />
+  </a>
+</p>
 
-# Hi, I'm Huu An 👋
-**Quantitative Researcher**
-
-Bridging numerical mathematics with systematic quantitative trading, derivative pricing, and high-performance computing.
-
-<p align="left">
+<p align="center">
   <img src="https://img.shields.io/badge/Python-21262d?style=flat-square&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/Rust-21262d?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
   <img src="https://img.shields.io/badge/C%2B%2B-21262d?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++" />
