@@ -30,27 +30,43 @@
     <!-- Subtle Horizontal Divider -->
     <line x1="0" y1="170" x2="616" y2="170" stroke="#21262d" stroke-width="1.2" />
 
-    <!-- Line 4: Unified Slate Feature Chips (Synchronized with README #21262d Badges) -->
+    <!-- Line 4: Quant Research Pipeline Flow (Math -> Alpha -> Combine -> Optimize) -->
     <g transform="translate(0, 185)">
-      <!-- Chip 1: Math -->
-      <rect x="0" y="0" width="84" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1" />
-      <circle cx="16" cy="13" r="3" fill="#1d7afc" />
-      <text x="48" y="16.5" fill="#e6edf3" font-size="10.5" font-weight="600" text-anchor="middle" class="mono">Math</text>
+      <!-- Step 1: ∑ Math -->
+      <rect x="0" y="0" width="120" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1" />
+      <rect x="4" y="4" width="26" height="18" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
+      <text x="17" y="16.5" fill="#58a6ff" font-size="11" font-weight="700" text-anchor="middle" class="sans">∑</text>
+      <text x="75" y="16.5" fill="#e6edf3" font-size="10.5" font-weight="600" text-anchor="middle" class="mono">Math</text>
 
-      <!-- Chip 2: Alpha -->
-      <rect x="96" y="0" width="90" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1" />
-      <circle cx="112" cy="13" r="3" fill="#1d7afc" />
-      <text x="147" y="16.5" fill="#e6edf3" font-size="10.5" font-weight="600" text-anchor="middle" class="mono">Alpha</text>
+      <!-- Arrow 1 -> 2 -->
+      <line x1="126" y1="13" x2="141" y2="13" stroke="#388bfd" stroke-width="1.3" stroke-linecap="round" />
+      <path d="M 138 9.5 L 142 13 L 138 16.5" fill="none" stroke="#388bfd" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" />
 
-      <!-- Chip 3: Combine -->
-      <rect x="198" y="0" width="104" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1" />
-      <circle cx="214" cy="13" r="3" fill="#1d7afc" />
-      <text x="256" y="16.5" fill="#e6edf3" font-size="10.5" font-weight="600" text-anchor="middle" class="mono">Combine</text>
+      <!-- Step 2: α Alpha -->
+      <rect x="148" y="0" width="126" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1" />
+      <rect x="152" y="4" width="26" height="18" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
+      <text x="165" y="16.5" fill="#58a6ff" font-size="11.5" font-weight="700" text-anchor="middle" class="mono">α</text>
+      <text x="226" y="16.5" fill="#e6edf3" font-size="10.5" font-weight="600" text-anchor="middle" class="mono">Alpha</text>
 
-      <!-- Chip 4: Optimize -->
-      <rect x="314" y="0" width="112" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1" />
-      <circle cx="330" cy="13" r="3" fill="#1d7afc" />
-      <text x="376" y="16.5" fill="#e6edf3" font-size="10.5" font-weight="600" text-anchor="middle" class="mono">Optimize</text>
+      <!-- Arrow 2 -> 3 -->
+      <line x1="280" y1="13" x2="295" y2="13" stroke="#388bfd" stroke-width="1.3" stroke-linecap="round" />
+      <path d="M 292 9.5 L 296 13 L 292 16.5" fill="none" stroke="#388bfd" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" />
+
+      <!-- Step 3: ⊕ Combine -->
+      <rect x="302" y="0" width="140" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1" />
+      <rect x="306" y="4" width="26" height="18" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
+      <text x="319" y="16.8" fill="#58a6ff" font-size="12" font-weight="700" text-anchor="middle" class="sans">⊕</text>
+      <text x="387" y="16.5" fill="#e6edf3" font-size="10.5" font-weight="600" text-anchor="middle" class="mono">Combine</text>
+
+      <!-- Arrow 3 -> 4 -->
+      <line x1="448" y1="13" x2="463" y2="13" stroke="#388bfd" stroke-width="1.3" stroke-linecap="round" />
+      <path d="M 460 9.5 L 464 13 L 460 16.5" fill="none" stroke="#388bfd" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" />
+
+      <!-- Step 4: w* Optimize -->
+      <rect x="470" y="0" width="146" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1" />
+      <rect x="474" y="4" width="26" height="18" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
+      <text x="487" y="16.5" fill="#58a6ff" font-size="10" font-weight="700" text-anchor="middle" class="mono">w*</text>
+      <text x="558" y="16.5" fill="#e6edf3" font-size="10.5" font-weight="600" text-anchor="middle" class="mono">Optimize</text>
     </g>
   </g>
 
