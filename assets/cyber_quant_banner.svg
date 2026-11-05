@@ -17,11 +17,9 @@
       Phan Bui Huu An
     </text>
 
-    <!-- Line 2: Quantitative Researcher • Financial Engineer -->
-    <text x="0" y="120" font-size="17" font-weight="600" letter-spacing="0.2" class="sans">
-      <tspan fill="#388bfd">Quantitative Researcher</tspan>
-      <tspan fill="#484f58" dx="8" dy="0">•</tspan>
-      <tspan fill="#388bfd" dx="8" dy="0">Financial Engineer</tspan>
+    <!-- Line 2: Quantitative Researcher -->
+    <text x="0" y="120" fill="#388bfd" font-size="17" font-weight="600" letter-spacing="0.2" class="sans">
+      Quantitative Researcher
     </text>
 
     <!-- Line 3: Bachelor's Degree -->
@@ -34,25 +32,25 @@
 
     <!-- Line 4: Unified Slate Feature Chips (Synchronized with README #21262d Badges) -->
     <g transform="translate(0, 185)">
-      <!-- Chip 1: Alpha Factors -->
-      <rect x="0" y="0" width="136" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1" />
+      <!-- Chip 1: Math -->
+      <rect x="0" y="0" width="84" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1" />
       <circle cx="16" cy="13" r="3" fill="#1d7afc" />
-      <text x="74" y="16.5" fill="#e6edf3" font-size="10.5" font-weight="600" text-anchor="middle" class="mono">Alpha Factors</text>
+      <text x="48" y="16.5" fill="#e6edf3" font-size="10.5" font-weight="600" text-anchor="middle" class="mono">Math</text>
 
-      <!-- Chip 2: Matrix SVD / QR -->
-      <rect x="148" y="0" width="148" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1" />
-      <circle cx="164" cy="13" r="3" fill="#1d7afc" />
-      <text x="228" y="16.5" fill="#e6edf3" font-size="10.5" font-weight="600" text-anchor="middle" class="mono">Matrix SVD / QR</text>
+      <!-- Chip 2: Alpha -->
+      <rect x="96" y="0" width="90" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1" />
+      <circle cx="112" cy="13" r="3" fill="#1d7afc" />
+      <text x="147" y="16.5" fill="#e6edf3" font-size="10.5" font-weight="600" text-anchor="middle" class="mono">Alpha</text>
 
-      <!-- Chip 3: Derivatives & Rates -->
-      <rect x="308" y="0" width="160" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1" />
-      <circle cx="324" cy="13" r="3" fill="#1d7afc" />
-      <text x="394" y="16.5" fill="#e6edf3" font-size="10.5" font-weight="600" text-anchor="middle" class="mono">Derivatives &amp; Rates</text>
+      <!-- Chip 3: Combine -->
+      <rect x="198" y="0" width="104" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1" />
+      <circle cx="214" cy="13" r="3" fill="#1d7afc" />
+      <text x="256" y="16.5" fill="#e6edf3" font-size="10.5" font-weight="600" text-anchor="middle" class="mono">Combine</text>
 
-      <!-- Chip 4: Tail Risk / VaR -->
-      <rect x="480" y="0" width="136" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1" />
-      <circle cx="496" cy="13" r="3" fill="#1d7afc" />
-      <text x="554" y="16.5" fill="#e6edf3" font-size="10.5" font-weight="600" text-anchor="middle" class="mono">Tail Risk / VaR</text>
+      <!-- Chip 4: Optimize -->
+      <rect x="314" y="0" width="112" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1" />
+      <circle cx="330" cy="13" r="3" fill="#1d7afc" />
+      <text x="376" y="16.5" fill="#e6edf3" font-size="10.5" font-weight="600" text-anchor="middle" class="mono">Optimize</text>
     </g>
   </g>
 
